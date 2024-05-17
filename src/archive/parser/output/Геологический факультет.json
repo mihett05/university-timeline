@@ -1,0 +1,400 @@
+{
+    "text": "\r\n\t\t\t\tГеологический факультет",
+    "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/o-fakultete-glg",
+    "logo": "http://www.psu.ru/files/images/fakultety/logo/new/new_logo_geol.jpg",
+    "deanery": [
+        {
+            "img": "http://www.psu.ru/files/images/podrazdeleniya/UNID/blinov.jpg",
+            "text": "Декан\r\nкандидат геолого-минералогических наук, доцент,\nСергей Михайлович Блинов\r\n(342) 239-67-84"
+        },
+        {
+            "img": "http://www.psu.ru/files/images/fakultety/geology/kovrizhnykh-2.jpg",
+            "text": "Заместитель декана по учебной работе\nСветлана Борисовна Коврижных\r\n(342) 239-68-88\nЭтот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра."
+        },
+        {
+            "img": "http://www.psu.ru/files/images/fakultety/geology/Parshina.jpg",
+            "text": "Заместитель декана по общим вопросам\r\nкандидат геолого-минералогических наук\nТатьяна Юрьевна Хлуденева\r\n(342) 239-68-32\nЭтот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра."
+        },
+        {
+            "img": "http://www.psu.ru/files/images/fakultety/geology/kulakova.jpeg",
+            "text": "Заместитель декана по внеучебной работе\nНаталья Валерьевна Южанинова\nЭтот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра.\r\n "
+        },
+        {
+            "img": "http://www.psu.ru/files/images/personalnye-stranitsy-prepodavatelej/novikov/novikov.jpg",
+            "text": "Заместитель декана по спортивной работе\n Петр Алексеевич Новиков\n\r\n "
+        },
+        {
+            "img": "http://www.psu.ru/files/images/personalnye-stranitsy-prepodavatelej/drobininaev/drobinina.png",
+            "text": "Заместитель декана по научной работе\r\nкандидат геолого-минералогических наук\nЕлена Викторовна Дробинина"
+        }
+    ],
+    "departments": [
+        {
+            "text": "\r\n\t\t\t\tКафедра геофизики",
+            "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-geofiziki",
+            "head": {
+                "content": "Расположение: ауд. 620, корп. 8.\nТелефон: (342) 239-68-43, 239-66-57\nЭлектронная почта: Этот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра.\n\nСотрудники кафедры\nПовышение квалификации и стажировки сотрудников кафедры\n\n\r\nИ.о. заведующий кафедрой\r\nдоктор технических наук, профессор,\r\nпрофессор кафедры геофизики\nАлександр Владимирович Шумилов\n\n ",
+                "img": [
+                    "http://www.psu.ru/files/images/personalnye-stranitsy-prepodavatelej/shumilov/shumilov.jpg"
+                ]
+            },
+            "blog": [
+                {
+                    "title": {
+                        "text": "О кафедре",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-geofiziki/o-kafedre"
+                    },
+                    "content": {
+                        "text": "по ссылке",
+                        "href": "http://www.psu.ru/http://echoperm.ru/themes/12/326/139220/"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Учебно-методическая деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-geofiziki/uchebno-metodicheskaya-deyatelnost-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-geofiziki/uchebno-metodicheskaya-deyatelnost-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Научно-исследовательская деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-geofiziki/nauchnaya-deyatelnost-kafedry"
+                    },
+                    "content": {
+                        "text": "Электроразведки",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/laboratorii/laboratoriya-elektrorazvedki"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Студенческая деятельность",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-geofiziki/studencheskaya-deyatelnost"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-geofiziki/studencheskaya-deyatelnost"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Выпускники кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-geofiziki/vypuskniki-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-geofiziki/vypuskniki-kafedry"
+                    }
+                }
+            ]
+        },
+        {
+            "text": "\r\n\t\t\t\tКафедра динамической геологии и гидрогеологии",
+            "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii",
+            "head": {
+                "content": "Расположение: ауд. 526, корп. 8.\nТелефон: (342) 239-63-38\nЭлектронная почта: Этот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра.\n\nСотрудники кафедры\nПовышение квалификации и стажировки сотрудников кафедры\n\n\n\r\nио заведующий кафедрой\r\nкандидат геолого-минералогических наук, доцент\nДенис Рафаилович Золотарев\n",
+                "img": [
+                    "http://www.psu.ru/files/images/personalnye-stranitsy-prepodavatelej/ZolotarevD/ZolotarevD.JPG"
+                ]
+            },
+            "blog": [
+                {
+                    "title": {
+                        "text": "О кафедре",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/o-kafedre"
+                    },
+                    "content": {
+                        "text": "\n\r\n\tКафедра основана 15 августа 1934 г. всемирно известным карстоведом и гидрогеологом, лауреатом ряда международных наград проф. Георгием Алексеевичем Максимовичем.\n\r\n\t \n\r\n\tС 1936 по настоящее время на кафедре подготовлено свыше 2200 специалистов-геологов, геоморфологов, гидрогеологов и инженер-геологов, в том числе свыше 600 – на заочном отделении.\n\n"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Учебно-методическая деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/uchebno-metodicheskaya-deyatelnost-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/uchebno-metodicheskaya-deyatelnost-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Научно-исследовательская деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/nauchno-issledovatelskaya-deyatelnost-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/nauchno-issledovatelskaya-deyatelnost-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Международная деятельность",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/mezhdunarodnaya-deyatelnost"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/mezhdunarodnaya-deyatelnost"
+                    }
+                },
+                {
+                    "title": {
+                        "text": " Коллектив кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/kollektiv-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/kollektiv-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Список публикаций, посвященных истории кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/spisok-publikatsij-posvyashchennykh-istorii-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/spisok-publikatsij-posvyashchennykh-istorii-kafedry"
+                    }
+                }
+            ]
+        },
+        {
+            "text": "\r\n\t\t\t\tКафедра инженерной геологии и охраны недр",
+            "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr",
+            "head": {
+                "content": "Расположение: ауд. 509, корп. 8.\nТелефоны: (342) 239-64-39\nЭлектронная почта: Этот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра.\n\nСотрудники кафедры\nПовышение квалификации и стажировки сотрудников кафедры\n\n\n\r\nЗаведующий кафедрой\r\nдоктор геолого-минералогических наук, профессор,\nВалерий Викторович  Середин\r\n(342) 2-396-127\n",
+                "img": [
+                    "http://www.psu.ru/files/images/fakultety/geology/seredin.JPG"
+                ]
+            },
+            "blog": [
+                {
+                    "title": {
+                        "text": "О кафедре",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/o-kafedre"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/o-kafedre"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Учебно-методическая деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/uchebno-metodicheskaya-deyatelnost-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/uchebno-metodicheskaya-deyatelnost-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Научно-исследовательская деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/nauchnaya-deyatelnost-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/nauchnaya-deyatelnost-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Выпускники кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/vypuskniki-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/vypuskniki-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Список публикаций, посвященных истории кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/spisok-publikatsij-posvyashchennykh-istorii-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/spisok-publikatsij-posvyashchennykh-istorii-kafedry"
+                    }
+                }
+            ]
+        },
+        {
+            "text": "\r\n\t\t\t\tКафедра минералогии и петрографии",
+            "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-mineralogii-i-petrografii",
+            "head": {
+                "content": "Расположение: ауд. 624, корп. 8Телефон: (342) 239-63-32Электронная почта: Этот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра.\n\nСотрудники кафедры\nПовышение квалификации и стажировки сотрудников кафедры\n\r\n Заведующий кафедрой\r\nдоктор геолого-минералогических наук, доцент\n Елена Александровна Меньшикова\r\n2-396-429 ",
+                "img": [
+                    "http://www.psu.ru/files/images/fakultety/geology/menshikovaEA.jpg"
+                ]
+            },
+            "blog": [
+                {
+                    "title": {
+                        "text": "О кафедре",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-mineralogii-i-petrografii/o-kafedre"
+                    },
+                    "content": {
+                        "text": "\nИстория кафедры\n\r\nВ октябре 1916 г., при создании Пермского университета, в структуре физико-математического факультета была создана кафедра минералогии и геологии, затем на её базе – кабинет, а позже кафедра минералогии, организатором которой был приват-доцент магистр минералогии и геогнозии А.А. Полканов – будущий академик.\n\r\nС 1930 по 1955 г. кафедрой заведовал доцент В.К. Воскресенский. В 1934 г. была организована кафедра петрографии (заведующий Г.А. Максимович), еще через два года – кафедра геохимии (заведующий Н.А. Игнатьев). На кафедрах в 30-е годы работали В.А. Токарев, А В. Власенко, Б.А. Гаврусевич, А.А. Сауков, Н.И. Хитаров, И.М. Переслегин.\n\r\nВ 1943 г. кафедру петрографии возглавил выдающийся ученый  с мировым именем профессор П.Н. Чирвинский, заведовавший ею до 1953 г. В первые послевоенные годы важную роль в воссоздании научного потенциала факультета сыграли Н.А. Игнатьев и Н.П. Старков, А.М. Кропачев, Ю.К. Митюнин и Н.П. Чирвинский.\n\r\nВ 1955 г. кафедры минералогии и петрографии были объединены. Объединенной кафедрой последовательно руководили В.К. Воскресенский (1955–60 гг.), Н.П. Старков (1960-75 гг.), А.М. Кропачев (1975–80 гг.), Ф.А. Курбацкая (1981–98 гг.), Б.М. Осовецкий (1998-2008), Р.Г. Ибламинов (2008– по настоящее время).\n\r\nПри кафедре работает Минералогический музей. Он основан в 1916 г. в основу музейного фонда легли коллекции как приобретенные, так и полученные в дар. В настоящее время  вклад в развитие музея вносят преподаватели, бывшие студенты и обмен образцами с другими музеями. С 2016 г. музеем заведует старший преподаватель кафедры Ю.Г. Пактовский. \r\nКоллектив кафедры минералогии и петрографии\n"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Учебно-методическая деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-mineralogii-i-petrografii/uchebnaya-deyatelnost"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-mineralogii-i-petrografii/uchebnaya-deyatelnost"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Научно-исследовательская деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-mineralogii-i-petrografii/nauchno-issledovatelskaya-rabota"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-mineralogii-i-petrografii/nauchno-issledovatelskaya-rabota"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Материальная база ",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-mineralogii-i-petrografii/materialnaya-baza"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-mineralogii-i-petrografii/materialnaya-baza"
+                    }
+                }
+            ]
+        },
+        {
+            "text": "\r\n\t\t\t\tКафедра поисков и разведки полезных ископаемых",
+            "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh",
+            "head": {
+                "content": "Расположение: ауд. 503 (быв. ауд. 505), корп. 8.\nТелефон: (342) 239-64-75\nЭлектронная почта: Этот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра.\n\nСотрудники кафедры\nПовышение квалификации и стажировки сотрудников кафедры\n\n\n\r\nЗаведующая кафедройдоктор геолого-минералогических наук, доцентОксана Борисовна Наумова (342) 2-396-355Этот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра.\r\n  ",
+                "img": [
+                    "http://www.psu.ru/files/images/fakultety/geology/naumova.jpg"
+                ]
+            },
+            "blog": [
+                {
+                    "title": {
+                        "text": "Учебно-методическая деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh/uchebno-metodicheskaya-deyatelnost-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh/uchebno-metodicheskaya-deyatelnost-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Научно-исследовательская деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh/nauchnaya-deyatelnost-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh/nauchnaya-deyatelnost-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Сотрудники кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh/sotrudniki-kafedry"
+                    },
+                    "content": {
+                        "text": "Показать",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh/sotrudniki-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Основные научные труды кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh/osnovnye-nauchnye-trudy-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh/osnovnye-nauchnye-trudy-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Выпускники кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh/vypuskniki-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-poiskov-i-razvedki-poleznykh-iskopaemykh/vypuskniki-kafedry"
+                    }
+                }
+            ]
+        },
+        {
+            "text": "\r\n\t\t\t\tКафедра региональной и нефтегазовой геологии",
+            "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-regionalnoj-i-neftegazovoj-geologii",
+            "head": {
+                "content": "Расположение: ауд. 608, корп. 8.\nТелефон: (342) 239-67-55\nЭлектронная почта: Этот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра.\n\nСотрудники кафедры\nПовышение квалификации и стажировки сотрудников кафедры\n\n\n\r\nЗаведующий кафедрой\r\nкандидат геолого-минералогических наук, доцент\nЕлена Евгеньевна Кожевникова",
+                "img": [
+                    "http://www.psu.ru/files/images/fakultety/geology/kozhevnikova.jpg"
+                ]
+            },
+            "blog": [
+                {
+                    "title": {
+                        "text": "О кафедре",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-regionalnoj-i-neftegazovoj-geologii/o-kafedre"
+                    },
+                    "content": {
+                        "text": "\nКафедра – ровесник университета, основана в 1916 г. Первым заведующим был магистр минералогии и геогнозии, и.о. ординарного профессора Б.К. Поленов, одновременно декан факультета. На кафедре работали такие известные ученые как П.И. Преображенский, первооткрыватель крупнейшего в мире уникального месторождения калийно-магниевых солей и пермской нефти, П.А. Софроницкий, один из первых обративший внимание на роль Камско-Кинельской системы впадин в формировании нефтяных залежей, что способствовало развитию нефтяной промышленности Пермского края, и многие другие.\n\r\nС 2003 г. кафедра начала развивать нефтегазогеологическое направление обучения, выпустив впервые в 2008 г. 14 человек геологов-нефтяников. В настоящее время этот выпуск достигает 100 и более человек.\n\r\nК 95-летию основания университета была издана монография по истории кафедры, где представлены основные вехи учебной и научной деятельности кафедры региональной и нефтегазовой геологии.\n"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Учебно-методическая деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-regionalnoj-i-neftegazovoj-geologii/uchebno-metodicheskaya-deyatelnost-kafedry"
+                    },
+                    "content": {
+                        "text": "\nКафедра региональной и нефтегазовой геологии в настоящее время готовит на очном и заочном отделениях бакалавров по направлению «Геология» профиль «Геология и геохимия горючих ископаемых» и магистров по тому же направлению, профиль «Геология и геохимия нефти и газа». При кафедре открыта аспирантура.\n\r\nУчебный процесс ведётся на современном уровне высококвалифицированными учёными и преподавателями, среди них 2 доктора наук, 9 кандидатов наук. Ежегодно издаются методические и учебные пособия для оптимизации обучения студентов.\n\r\nПрактику студенты в основном проходят в крупных нефтегазовых и сервисных компаниях и научно-исследовательских организациях, таких как ПАО «Лукойл», ПАО «Сургутнефтегаз», ООО «ЛУКОЙЛ-Инжиниринг – ПермНИПИнефть», АО «КамНИИКИГС» и др., с которыми заключены соответствующие договора.\n"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Научно-исследовательская деятельность кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-regionalnoj-i-neftegazovoj-geologii/nauchnaya-deyatelnost-kafedry"
+                    },
+                    "content": {
+                        "text": "\nНаучные исследования на кафедре региональной и нефтегазовой геологии выполняются  по следующему основному направлению: «Региональные и геолого-геохимические исследования  перспективных на нефть и газ комплексов отложений и территорий, в том числе глубокопогруженных отложений, докембрийских комплексов пород и областей надвиговых дислокаций». Кроме того, развиваются направления по комплексному изучению отложений пермской системы, региональной геологии, палеонтологии и геотектонике.  Ежегодно сотрудники кафедры публикуют более 20 статей в высокорейтинговых журналах и материалах конференций.\n\r\nКафедра регулярно проводит научные конференции по различным вопросам геологического строения и нефтегазоносности. С 2017 г. начато проведение Международной научной конференции «Новые направления нефтегазовой геологии и геохимии. Развитие геологоразведочных работ» с широким участием известных ученых, специалистов, молодых ученых и студентов.\n\r\nМногие выпускники кафедры стали известными учеными. К ним относятся О.А. Щербаков  (выпуск 1954 г.), доктор геол.-мин. наук, один из ведущих ученых страны в области стратиграфии и палеогеографии; Б.И. Чувашов (выпуск 1958 г.), доктор геол.-мин. наук, член-корреспондент РАН, крупный специалист в области региональной геологии, палеонтологии, тектоники; В.М. Проворов (выпуск 1959 г.), доктор геол.-мин. наук, известный специалист по исследованию региональной геологии и нефтегазоносности Волго-Уральской нефтегазоносной провинции и др.\n\r\nНаучные исследования преподавателей, аспирантов и студентов кафедры продолжают традиции основателей, положивших начало региональным геологическим исследованиям и изучению нефтегазоносности севера Волго-Уральской нефтегазоносной провинции. В последнее время эти исследования распространяются на территории Тимано-Печорской и Прикаспийской нефтегазоносных провинций, Западную и Восточную Сибирь, Африку и другие регионы.\n"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Музеи кафедры",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-regionalnoj-i-neftegazovoj-geologii/muzei-kafedry"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-regionalnoj-i-neftegazovoj-geologii/muzei-kafedry"
+                    }
+                },
+                {
+                    "title": {
+                        "text": "Лаборатория",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-regionalnoj-i-neftegazovoj-geologii/laboratoriya"
+                    },
+                    "content": {
+                        "text": "подробнее >>",
+                        "href": "http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-regionalnoj-i-neftegazovoj-geologii/laboratoriya"
+                    }
+                }
+            ]
+        }
+    ]
+}
