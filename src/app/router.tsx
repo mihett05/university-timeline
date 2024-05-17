@@ -1,5 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom';
 import ArchivePage from '~/pages/archive';
+import DepartmentPage from '~/pages/department';
+import FacultyPage from '~/pages/faculty';
+import TeacherPage from '~/pages/teacher';
 import TimeLinePage from '~/pages/timeline';
 
 export const router = createBrowserRouter([
@@ -9,6 +12,18 @@ export const router = createBrowserRouter([
   },
   {
     path: '/archive',
-    element: <ArchivePage />
+    element: <ArchivePage />,
+  },
+  {
+    path: '/archive/:faculty',
+    element: <FacultyPage />,
+  },
+  {
+    path: '/archive/:faculty/departments/:department',
+    element: <DepartmentPage />,
+  },
+  {
+    path: '/archive/:faculty/teachers/:teacher',
+    element: <TeacherPage />,
   },
 ]);
