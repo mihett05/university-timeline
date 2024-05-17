@@ -91,7 +91,7 @@ def parse_department(url):
 
     obj = {'head': {'content': head.text}, 'blog': []}
     if head_img:
-        obj['head']['img'] = pre_add_img_src(head_img.attrs.get('src')),
+        obj['head']['img'] = pre_add_img_src(head_img.attrs.get('src'))
 
     for div in blog.find_all('div', attrs={'class': 'items-row'}):
         content = div.find('div', attrs={'class': 'yutoks-postcontent'})
