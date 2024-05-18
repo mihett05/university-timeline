@@ -13,6 +13,7 @@ make_dir_if_not_exists('logs')
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
+    encoding='utf8',
     handlers=[
         logging.FileHandler("logs/parser.log"),
         logging.StreamHandler()

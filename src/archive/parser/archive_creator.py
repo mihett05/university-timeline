@@ -12,6 +12,7 @@ from src.archive.parser.utils import make_dir_if_not_exists
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
+    encoding='utf8',
     handlers=[
         logging.FileHandler('logs/archive_creator.log'),
         logging.StreamHandler()
@@ -125,7 +126,7 @@ def main(path_to_write: Path, path_to_read='output'):
 
     files = [f for f in listdir(path_to_read) if isfile(join(path_to_read, f))]
 
-    for file in files[files.index('Физико-математический институт.json'):]:
+    for file in files:
         logging.info(f'Start parsing faculty "{file}"')
         with open(join(path_to_read, file), encoding='utf8') as input_file:
             faculty = json.load(input_file)
