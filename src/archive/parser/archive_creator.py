@@ -92,6 +92,7 @@ def create_files_and_dirs(path_to_write, faculty: dict):
 
     # save faculty logo
     save_image(join(faculty_name, f'logo.jpg'), faculty['logo'])
+    save_md(join(faculty_name, f'info.md'), faculty['info'])
     logging.info(f'\t\tEnd creating faculty dirs and logo')
 
     # save deanery objects
