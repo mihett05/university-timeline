@@ -44,8 +44,26 @@ def parse_link(link: element.Tag):
 
 
 async def get_faculty_info(faculty_url):
+    key_headers = {
+        'история факультета',
+        'о факультете',
+        'краткое описание',
+        'об институте',
+        'история юридического факультета',
+    }
+
     page = BeautifulSoup(get(faculty_url).text, 'html.parser')
-    return fix_links(get_md_from_tag(page.find('div', attrs={'class': 'blog'}))).strip()
+    blog = page.find('div', attrs={'class': 'blog'})
+
+    blocks = blog.find_all('div', attrs={'class': 'yutoks-post-inner'})
+    necessary_blocks = []
+
+    for block in blocks:
+        title = block.find(attrs={'class': 'yutoks-postheader'})
+        if title and title.text.strip().lower() in key_headers:
+            necessary_blocks.append(get_md_from_tag(block))
+
+    return fix_links(''.join(necessary_blocks)).strip()
 
 
 async def parse_ul(url: str) -> list[dict[str, str]]:
@@ -109,7 +127,7 @@ async def parse_department(url):
     necessary_blocks = []
 
     for block in blocks:
-        title = block.find('h2', attrs={'class': 'yutoks-postheader'})
+        title = block.find(attrs={'class': 'yutoks-postheader'})
         if title and title.text.strip().lower() in key_headers:
             necessary_blocks.append(get_md_from_tag(block))
 
