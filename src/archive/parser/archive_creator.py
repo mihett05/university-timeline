@@ -38,6 +38,8 @@ def save_collection(base_path: str, collection: list[dict], default_img_extensio
             item_name = info.split('**')[1]
 
         if item_name:
+
+            logging.info(f'\t\t\t\t\tSaving {item_name}')
             item_name = join(base_path, item_name)
 
             make_dir_if_not_exists(item_name)
@@ -98,10 +100,11 @@ def create_files_and_dirs(path_to_write, faculty: dict):
 
     logging.info(f'\t\tCreating faculty departments')
     for department in faculty['departments']:
-        department_name = join(faculty_departments_name, department['text'].replace(' ', '_'))
+        department_name_ = department['text'].replace(' ', '_')
+        department_name = join(faculty_departments_name, department_name_)
         department_name_teachers = join(department_name, 'teachers')
 
-        logging.info(f'\t\t\tCreating faculty department {faculty_departments_name}')
+        logging.info(f'\t\t\tCreating faculty department {department_name_}')
 
         make_dir_if_not_exists(department_name)
         make_dir_if_not_exists(department_name_teachers)
@@ -110,7 +113,7 @@ def create_files_and_dirs(path_to_write, faculty: dict):
         if department.get('teachers'):
             save_collection(department_name_teachers, department['teachers'], 'jpg')
 
-        logging.info(f'\t\t\tEnd creating faculty department {faculty_departments_name}')
+        logging.info(f'\t\t\tEnd creating faculty department {department_name_}')
 
 
 def main(path_to_write: Path, path_to_read='output'):
@@ -122,7 +125,7 @@ def main(path_to_write: Path, path_to_read='output'):
 
     files = [f for f in listdir(path_to_read) if isfile(join(path_to_read, f))]
 
-    for file in files:
+    for file in files[files.index('Физико-математический институт.json'):]:
         logging.info(f'Start parsing faculty "{file}"')
         with open(join(path_to_read, file), encoding='utf8') as input_file:
             faculty = json.load(input_file)
