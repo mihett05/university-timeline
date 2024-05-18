@@ -1,9 +1,11 @@
+import asyncio
 import json
 import logging
 from typing import Any
 
 from bs4 import BeautifulSoup, element
 from requests import get
+from markdownify import markdownify
 
 from src.archive.parser.utils import make_dir_if_not_exists
 
@@ -18,22 +20,35 @@ logging.basicConfig(
 )
 
 
-def pre_add_img_src(src: str):
-    if src.startswith('http://www.psu.ru/'):
+def fix_links(elements: str):
+    return elements.replace('(/', '(http://www.psu.ru/')
+
+
+def get_md_from_tag(tag: element.Tag | str):
+    return markdownify(tag.prettify() if isinstance(tag, element.Tag) else tag)
+
+
+def pre_add_img_src(src: str, prefix: str = 'http://www.psu.ru'):
+    if src.startswith(f'{prefix}/'):
         return src
-    return f'http://www.psu.ru{src}' if src.startswith('/') else f'http://www.psu.ru/{src}'
+    return f'{prefix}{src}' if src.startswith('/') else f'{prefix}/{src}'
 
 
 def parse_link(link: element.Tag):
     if link:
         return {
-            'text': link.text,
+            'text': link.text.strip(),
             'href': pre_add_img_src(link.attrs.get('href'))
         }
     return {}
 
 
-def parse_ul(url: str) -> list[dict[str, str]]:
+async def get_faculty_info(faculty_url):
+    page = BeautifulSoup(get(faculty_url).text, 'html.parser')
+    return fix_links(get_md_from_tag(page.find('div', attrs={'class': 'blog'}))).strip()
+
+
+async def parse_ul(url: str) -> list[dict[str, str]]:
     page = BeautifulSoup(get(url).text, 'html.parser')
 
     uls = page.find('div', attrs={'class': 'cat-children'})
@@ -43,7 +58,7 @@ def parse_ul(url: str) -> list[dict[str, str]]:
     return []
 
 
-def get_faculty_deanery(url: str):
+async def get_faculty_deanery(url: str):
     data = []
     page = BeautifulSoup(get(url).text, 'html.parser')
 
@@ -62,75 +77,149 @@ def get_faculty_deanery(url: str):
                 data.append(
                     {
                         'img': pre_add_img_src(img.attrs.get('src')),
-                        'text': text
+                        'text': get_md_from_tag(text).strip()
                     }
                 )
 
     return data
 
 
-def get_faculty_logo(url: str):
+async def get_faculty_logo(url: str):
     page = BeautifulSoup(get(url).text, 'html.parser')
     logo = page.find('div', attrs={'class': 'category-desc'}).find('img')
 
     return pre_add_img_src(logo.attrs.get('src')) if logo else ''
 
 
-def get_faculties(faculties_url='http://www.psu.ru/fakultety') -> list[dict[str, str]]:
+async def get_faculties(faculties_url='http://www.psu.ru/fakultety') -> list[dict[str, str]]:
     logging.info("Start parsing faculties")
-    return parse_ul(faculties_url)
+    return await parse_ul(faculties_url)
 
 
-def parse_department(url):
+async def parse_department(url):
+    key_headers = {
+        'история',
+        'история кафедры',
+        'о кафедре',
+    }
     page = BeautifulSoup(get(url).text, 'html.parser')
-
     blog = page.find('div', attrs={'class': 'blog'})
+
+    blocks = blog.find_all('div', attrs={'class': 'yutoks-post-inner'})
+    necessary_blocks = []
+
+    for block in blocks:
+        title = block.find('h2', attrs={'class': 'yutoks-postheader'})
+        if title and title.text.strip().lower() in key_headers:
+            necessary_blocks.append(get_md_from_tag(block))
 
     head = blog.find('div', attrs={'class': 'category-desc'})
     head_img = head.find('img')
 
-    obj = {'head': {'content': head.text}, 'blog': []}
+    head_obj = {
+        'info': '',
+        'img': ''
+    }
     if head_img:
-        obj['head']['img'] = pre_add_img_src(head_img.attrs.get('src'))
+        obj = head.prettify()
+        head_img_pretty = head_img.prettify()
 
-    for div in blog.find_all('div', attrs={'class': 'items-row'}):
-        content = div.find('div', attrs={'class': 'yutoks-postcontent'})
-        obj['blog'].append({
-            'title': parse_link(div.find('h2', attrs={'class': 'yutoks-postheader'}).find('a')),
-            'content': {'text': content.text} | parse_link(content.find('a'))
-        })
+        head_img_info = get_md_from_tag(obj[obj.index(head_img_pretty) + len(head_img_pretty):])
+        head_obj = {
+            'info': fix_links(head_img_info.strip()),
+            'img': pre_add_img_src(head_img.attrs.get('src'))
+        }
 
-    return obj
+    teachers = [a.attrs.get('href') for a in head.find_all('a') if a.text.lower().strip() == 'сотрудники кафедры']
+
+    return {
+               'head': head_obj,
+               'teachers': teachers and teachers[0],
+               'blocks': fix_links(head_obj['info'] + ''.join(necessary_blocks)).strip()
+           }
 
 
-def parse_faculty(faculty: dict[str, Any]):
+async def parse_department_teachers(url: str):
+    ans = []
+
+    page = BeautifulSoup(get(url).text, 'html.parser')
+    table = page.find('table')
+
+    trs = table.find_all('tr')
+    for tr in trs:
+        tds: list[element.Tag] = tr.find_all('td')
+        if len(tds) < 5:
+            continue
+
+        img = tds[0].find('img')
+        if not img:
+            continue
+
+        ans.append(
+            {
+                'img': pre_add_img_src(img.attrs.get('src'), prefix='https://helios.psu.ru/pls/www_psu_ru/'),
+                'info': f'{tds[3].text.strip()}\n\n'
+                        f'{tds[2].text.strip()}\n\n'
+                        f'**{tds[1].text.strip()}**\n\n' +
+                        "\n\t*".join(tds[4].text.strip().split("\n"))
+            }
+        )
+
+    return ans
+
+
+async def parse_faculty(faculty: dict[str, Any]):
     name = faculty['text'].strip()
-    base_url = '/'.join(faculty['href'].split('/')[:-1])
+    base_url = faculty['href'].split('/o-fakultete')[0]
+    print(base_url)
 
     logging.info(f'\t\tStart parsing faculty "{name}" detail info')
-    faculty['logo'] = get_faculty_logo(faculty['href'])
-    faculty['deanery'] = get_faculty_deanery(f'{base_url}/dekanat')
-    faculty['departments'] = parse_ul(f'{base_url}/kafedry')
-    logging.info(f'\t\tEnd parsing faculty "{name}" detail info')
+    faculty['info'] = await get_faculty_info(faculty['href'])
+    faculty['logo'] = await get_faculty_logo(faculty['href'])
+    faculty['deanery'] = await get_faculty_deanery(f'{base_url}/dekanat')
+    faculty['departments'] = await parse_ul(f'{base_url}/kafedry')
 
     logging.info(f'\t\t\tStart parsing faculty "{name}" departments detail info')
     for department in faculty['departments']:
-        for k, v in parse_department(department['href']).items():
-            department[k] = v
+        department['info'] = await parse_department(department['href'])
+
+        department_name = department['text']
+        logging.info(f'\t\t\t\tStart parsing\t\t"{department_name}" detail info')
+
+        if department['info']['teachers']:
+            department['teachers'] = await parse_department_teachers(department['info']['teachers'])
+            if department['info']['head']['info']:
+                department['teachers'].append(department['info']['head'])
+            del department['info']['head']
+
+        logging.info(f'\t\t\t\tEnd parsing\t\t\t"{department_name}" detail info')
+        logging.info(f'\t\t\t\t-------------------------------------------')
+
     logging.info(f'\t\t\tEnd parsing faculty "{name}" departments detail info')
 
     with open(f'output/{name}.json', 'w', encoding='utf8') as file:
-        json.dump(faculty, file, indent=4, ensure_ascii=False)
+        file.write(
+            json.dumps(
+                faculty, indent=4, ensure_ascii=False
+            ).replace(
+                'У вас должен быть включен JavaScript для просмотра.', ''
+            ).replace(
+                'Этот адрес электронной почты защищен от спам-ботов.', ''
+            )
+        )
 
 
-def parse():
+async def parse():
     logging.info("Start parsing faculties")
-    faculties: list[dict[str, Any]] = get_faculties()
+    faculties: list[dict[str, Any]] = await get_faculties()
     logging.info("End parsing faculties")
 
+    tasks = []
     for faculty in faculties:
-        parse_faculty(faculty)
+        tasks.append( parse_faculty(faculty))
+    await asyncio.gather(*tasks)
 
 
 if __name__ == '__main__':
-    parse()
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(parse())
