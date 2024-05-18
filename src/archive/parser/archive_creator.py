@@ -11,30 +11,124 @@ from src.archive.parser.utils import make_dir_if_not_exists
 
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
+    format='%(asctime)s [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler("logs/archive_creator.log"),
+        logging.FileHandler('logs/archive_creator.log'),
         logging.StreamHandler()
     ]
 )
 
 
-def save_image(src: str):
-    with open(os.path.basename(src), "wb") as img:
+def save_image(file_path: str, src: str):
+    with open(file_path, 'wb') as img:
         img.write(requests.get(src).content)
 
 
+def save_md(file_path: str, src: str):
+    with open(file_path, 'w', encoding='utf8') as md:
+        md.write(src)
+
+
+def save_collection(base_path: str, collection: list[dict], default_img_extension=None):
+    logging.info(f'\t\t\t\tSaving collection')
+    for item in collection:
+        info = item.get('text') or item.get('info', '')
+        item_name = item.get('ФИО', '').replace(' ', '_')
+        if not item_name and '**' in info:
+            item_name = info.split('**')[1]
+
+        if item_name:
+            item_name = join(base_path, item_name)
+
+            make_dir_if_not_exists(item_name)
+
+            save_md(join(item_name, f'info.md'), info)
+
+            extension = default_img_extension
+            if extension is None:
+                extension = os.path.basename(item["img"]).split(".")[-1]
+            save_image(join(item_name, f'info.{extension}'), item['img'])
+        else:
+            print(item)
+    logging.info(f'\t\t\t\tEnd saving collection')
+
+
+def create_files_and_dirs(path_to_write, faculty: dict):
+    """
+    :param path_to_write:
+    :param faculty:
+    :return:
+
+    archive/
+        faculty_name/
+            info.md
+            logo.jpg
+
+            deanery/
+                ФИО/
+                    info.md
+                    info.jpg
+
+            departments/
+                department_name/
+                    info.md
+                    teachers/
+                        ФИО/
+                            info.md
+                            info.jpg
+    """
+
+    faculty_name = join(path_to_write, faculty['text'].replace(' ', '_'))
+    faculty_deanery_name = join(faculty_name, 'deanery')
+    faculty_departments_name = join(faculty_name, 'departments')
+
+    logging.info(f'\t\tCreating faculty dirs and logo')
+    make_dir_if_not_exists(faculty_name)
+    make_dir_if_not_exists(faculty_deanery_name)
+    make_dir_if_not_exists(faculty_departments_name)
+
+    # save faculty logo
+    save_image(join(faculty_name, f'logo.jpg'), faculty['logo'])
+    logging.info(f'\t\tEnd creating faculty dirs and logo')
+
+    # save deanery objects
+    logging.info(f'\t\t\tCreating faculty deanery')
+    save_collection(faculty_deanery_name, faculty['deanery'])
+    logging.info(f'\t\t\tEnd creating faculty deanery')
+
+    logging.info(f'\t\tCreating faculty departments')
+    for department in faculty['departments']:
+        department_name = join(faculty_departments_name, department['text'].replace(' ', '_'))
+        department_name_teachers = join(department_name, 'teachers')
+
+        logging.info(f'\t\t\tCreating faculty department {faculty_departments_name}')
+
+        make_dir_if_not_exists(department_name)
+        make_dir_if_not_exists(department_name_teachers)
+
+        save_md(join(department_name, f'info.md'), department['info']['blocks'])
+        if department.get('teachers'):
+            save_collection(department_name_teachers, department['teachers'], 'jpg')
+
+        logging.info(f'\t\t\tEnd creating faculty department {faculty_departments_name}')
+
+
 def main(path_to_write: Path, path_to_read='output'):
-    for file in [f for f in listdir(path_to_read) if isfile(join(path_to_read, f))]:
-        with open(file, encoding='utf8') as file:
-            data = json.load(file)
+    """
+    :param path_to_write:
+    :param path_to_read:
+    :return:
+    """
 
-        directory_name = join(path_to_write, data['name'])
-        directory_department_name = join(directory_name, "departments")
+    files = [f for f in listdir(path_to_read) if isfile(join(path_to_read, f))]
 
-        make_dir_if_not_exists(directory_department_name)
+    for file in files:
+        logging.info(f'Start parsing faculty "{file}"')
+        with open(join(path_to_read, file), encoding='utf8') as input_file:
+            faculty = json.load(input_file)
 
-        save_image(data['logo'])
+        create_files_and_dirs(path_to_write, faculty)
+        logging.info(f'End parsing faculty "{file}"')
 
 
 if __name__ == '__main__':

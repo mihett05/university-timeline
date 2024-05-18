@@ -176,7 +176,8 @@ async def parse_department_teachers(url: str):
         ans.append(
             {
                 'img': pre_add_img_src(img.attrs.get('src'), prefix='https://helios.psu.ru/pls/www_psu_ru/'),
-                'info': f'{tds[3].text.strip()}\n\n'
+                'ФИО': tds[1].text.strip(),
+                'text': f'{tds[3].text.strip()}\n\n'
                         f'{tds[2].text.strip()}\n\n'
                         f'**{tds[1].text.strip()}**\n\n' +
                         "\n\t*".join(tds[4].text.strip().split("\n"))
