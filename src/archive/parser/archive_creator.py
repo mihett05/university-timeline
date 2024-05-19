@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+import re
 from os import listdir
 from os.path import isfile, join
 from pathlib import Path
@@ -21,11 +22,15 @@ logging.basicConfig(
 
 
 def save_image(file_path: str, src: str):
+    if os.path.exists(file_path):
+        return
     with open(file_path, 'wb') as img:
         img.write(requests.get(src).content)
 
 
 def save_md(file_path: str, src: str):
+    if os.path.exists(file_path):
+        return
     with open(file_path, 'w', encoding='utf8') as md:
         md.write(src)
 
@@ -80,6 +85,7 @@ def create_files_and_dirs(path_to_write, faculty: dict):
                             info.md
                             info.jpg
     """
+    pattern = r'[а-яА-Я\s]*'
 
     faculty_name = join(path_to_write, faculty['text'].replace(' ', '_'))
     faculty_deanery_name = join(faculty_name, 'deanery')
@@ -102,7 +108,7 @@ def create_files_and_dirs(path_to_write, faculty: dict):
 
     logging.info(f'\t\tCreating faculty departments')
     for department in faculty['departments']:
-        department_name_ = department['text'].replace(' ', '_')
+        department_name_ = [x for x in re.findall(pattern, department['text']) if x][0].replace(' ', '_')
         department_name = join(faculty_departments_name, department_name_)
         department_name_teachers = join(department_name, 'teachers')
 

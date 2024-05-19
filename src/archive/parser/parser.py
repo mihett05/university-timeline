@@ -1,6 +1,7 @@
 import asyncio
 import json
 import logging
+import re
 from typing import Any
 
 from bs4 import BeautifulSoup, element
@@ -91,10 +92,12 @@ async def get_faculty_deanery(url: str):
 
             img: element.Tag = tds[0].find('img')
             text = tds[1].text
+            fio = tds[1].find('strong')
 
             if img and text:
                 data.append(
                     {
+                        'ФИО': fio and fio.text.strip(),
                         'img': pre_add_img_src(img.attrs.get('src')),
                         'text': get_md_from_tag(text).strip()
                     }
@@ -136,26 +139,29 @@ async def parse_department(url):
     head_img = head.find('img')
 
     head_obj = {
-        'info': '',
+        'text': '',
+        'ФИО': '',
         'img': ''
     }
     if head_img:
         obj = head.prettify()
         head_img_pretty = head_img.prettify()
-
         head_img_info = get_md_from_tag(obj[obj.index(head_img_pretty) + len(head_img_pretty):])
+
+        fio = head_img_info.split('**')
         head_obj = {
-            'info': fix_links(head_img_info.strip()),
+            'text': fix_links(head_img_info.strip()),
+            'ФИО': (len(fio) > 1 and fio[1].strip()) or '',
             'img': pre_add_img_src(head_img.attrs.get('src'))
         }
 
     teachers = [a.attrs.get('href') for a in head.find_all('a') if a.text.lower().strip() == 'сотрудники кафедры']
 
     return {
-               'head': head_obj,
-               'teachers': teachers and teachers[0],
-               'blocks': fix_links(head_obj['info'] + ''.join(necessary_blocks)).strip()
-           }
+        'head': head_obj,
+        'teachers': teachers and teachers[0],
+        'blocks': fix_links(head_obj['text'] + ''.join(necessary_blocks)).strip()
+    }
 
 
 async def parse_department_teachers(url: str):
@@ -189,9 +195,10 @@ async def parse_department_teachers(url: str):
 
 
 async def parse_faculty(faculty: dict[str, Any]):
+    pattern = r'[а-яА-Я\s]*'
+
     name = faculty['text'].strip()
     base_url = faculty['href'].split('/o-fakultete')[0]
-    print(base_url)
 
     logging.info(f'\t\tStart parsing faculty "{name}" detail info')
     faculty['info'] = await get_faculty_info(faculty['href'])
@@ -200,15 +207,16 @@ async def parse_faculty(faculty: dict[str, Any]):
     faculty['departments'] = await parse_ul(f'{base_url}/kafedry')
 
     logging.info(f'\t\t\tStart parsing faculty "{name}" departments detail info')
+    logging.info(f'\t\t\t\t-------------------------------------------')
     for department in faculty['departments']:
         department['info'] = await parse_department(department['href'])
 
-        department_name = department['text']
+        department_name = [x for x in re.findall(pattern, department['text']) if x][0]
         logging.info(f'\t\t\t\tStart parsing\t\t"{department_name}" detail info')
 
         if department['info']['teachers']:
             department['teachers'] = await parse_department_teachers(department['info']['teachers'])
-            if department['info']['head']['info']:
+            if department['info']['head']['text']:
                 department['teachers'].append(department['info']['head'])
             del department['info']['head']
 
@@ -220,13 +228,14 @@ async def parse_faculty(faculty: dict[str, Any]):
     with open(f'output/{name}.json', 'w', encoding='utf8') as file:
         file.write(
             json.dumps(
-                faculty, indent=4, ensure_ascii=False
+                faculty, indent=2, ensure_ascii=False
             ).replace(
                 'У вас должен быть включен JavaScript для просмотра.', ''
             ).replace(
                 'Этот адрес электронной почты защищен от спам-ботов.', ''
             )
         )
+    logging.info(f'\t\tEnd parsing faculty "{name}" detail info')
 
 
 async def parse():
@@ -236,7 +245,8 @@ async def parse():
 
     tasks = []
     for faculty in faculties:
-        tasks.append( parse_faculty(faculty))
+        # tasks.append(parse_faculty(faculty))
+        await parse_faculty(faculty)
     await asyncio.gather(*tasks)
 
 
