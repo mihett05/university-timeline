@@ -1,5 +1,5 @@
-import { Box } from '@mui/material';
+import EventList from '~/shared/ui/events/EventList';
 
 export default function TimeLinePage() {
-  return <Box>TimeLine</Box>;
+  return <EventList />;
 }
