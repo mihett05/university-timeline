@@ -1,3 +1,5 @@
+import { IDeanery, IDepartment, IFaculty, ITeacher } from '../types';
+
 type ArchiveObject = {
   faculty: string;
   department?: string;
@@ -29,14 +31,14 @@ export const makeArchiveObjectFromPath = (path: string): ArchiveObject => {
       .reduce(
         (prev, [key, value]) => ({
           ...prev,
-          [pathToKey[key]]: value,
+          [pathToKey[key as keyof typeof pathToKey]]: value,
         }),
         {},
       ),
   };
 };
 
-export const pathBase = '/public/archive/';
+const pathBase = '/archive/';
 
 class Loader {
   protected infoPath: string = '';
@@ -63,7 +65,7 @@ class Loader {
   }
 }
 
-export class Faculty extends Loader {
+export class Faculty extends Loader implements IFaculty {
   public departments: Department[] = [];
   public deanery: Deanery[] = [];
 
@@ -88,7 +90,7 @@ export class Faculty extends Loader {
   }
 }
 
-export class Department extends Loader {
+export class Department extends Loader implements IDepartment {
   public teachers: Teacher[] = [];
 
   handleFile(file: ArchiveObject) {
@@ -105,5 +107,5 @@ export class Department extends Loader {
   }
 }
 
-export class Deanery extends Loader {}
-export class Teacher extends Loader {}
+export class Deanery extends Loader implements IDeanery {}
+export class Teacher extends Loader implements ITeacher {}

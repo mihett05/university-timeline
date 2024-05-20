@@ -7,13 +7,13 @@ interface IFacultyCard {
 }
 
 const FacultyCard = ({ logo, name }: IFacultyCard) => {
-  const nameToLink = name.trim().split(' ').join('_');
+  const facultyName = name.trim().split('_').join(' ');
   return (
     <Card sx={{ maxWidth: 350, margin: 4, height: 345, mx: 'auto' }}>
-      <CardMedia sx={{ height: 200 }} image={logo} title={name} />
+      <CardMedia sx={{ height: 200, backgroundSize: 'contain' }} image={logo} title={name} />
       <CardContent sx={{ textAlign: 'center', padding: 5 }}>
-        <RouterLink to={'/archive/' + nameToLink} style={{ textDecoration: 'none' }}>
-          {name}
+        <RouterLink to={`/archive/${name}`} style={{ textDecoration: 'none' }}>
+          {facultyName}
         </RouterLink>
       </CardContent>
     </Card>

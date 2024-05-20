@@ -1,36 +1,26 @@
 import { Box, Breadcrumbs, Link, Typography } from '@mui/material';
+import Markdown from 'react-markdown';
 import { Link as RouterLink, useParams } from 'react-router-dom';
+import ArchiveBreadcrumbs from '~/shared/archive-breadcrumbs';
+import { translate } from '~/shared/links';
+import { ITeacher } from '~/shared/types';
 
-const Teacher = () => {
-  const { teacher, faculty } = useParams();
-  const teacherName = teacher?.trim().split('_').join(' ');
-  const facultyName = faculty?.trim().split('_').join(' ');
+type TeacherProps = {
+  teacher: ITeacher;
+};
+
+const Teacher = ({ teacher }: TeacherProps) => {
   return (
     <Box>
-      <Breadcrumbs
+      <ArchiveBreadcrumbs />
+      <Box
         sx={{
-          width: '100%',
-          margin: '5%',
-          mt: 5,
-          fontWeight: 600,
+          mx: '5%',
         }}
       >
-        <Link component={RouterLink} to="/archive" underline="hover">
-          Архив
-        </Link>
-        <Link component={RouterLink} to={'/archive/' + faculty} underline="hover">
-          {facultyName}
-        </Link>
-        <Link
-          component={RouterLink}
-          to={'/archive/' + faculty + '/teachers/' + teacher}
-          underline="hover"
-        >
-          {teacherName}
-        </Link>
-      </Breadcrumbs>
-      <Box>
-        <Typography>{teacherName}</Typography>
+        <Typography fontWeight="bold">{translate(teacher.name)}</Typography>
+        <img src={teacher.logo} />
+        <Markdown>{teacher.info}</Markdown>
       </Box>
     </Box>
   );

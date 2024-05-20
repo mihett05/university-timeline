@@ -1,16 +1,9 @@
-import {
-  Faculty,
-  Department,
-  Deanery,
-  Teacher,
-  makeArchiveObjectFromPath,
-  pathBase,
-} from './factory';
+import { Faculty, Department, Deanery, Teacher, makeArchiveObjectFromPath } from './factory';
 
 const getArchiveObjects = () =>
-  Object.entries(import.meta.glob(`/public/archive/**/*`)).map(([path]) =>
-    makeArchiveObjectFromPath(path.replace(pathBase, '')),
-  );
+  Object.entries(import.meta.glob(`/public/archive/**/*`))
+    .filter(([path]) => !path.endsWith('py') && !path.endsWith('json'))
+    .map(([path]) => makeArchiveObjectFromPath(path.replace('/public/archive/', '')));
 
 export const getFaculties = async (): Promise<Faculty[]> => {
   const objects = getArchiveObjects();
@@ -24,9 +17,9 @@ export const getFaculties = async (): Promise<Faculty[]> => {
   return Object.values(faculties);
 };
 
-export const getFaculty = async (faculty: string): Promise<Faculty | undefined> => {
+export const getFaculty = async (faculty: string): Promise<Faculty | null> => {
   const loader = (await getFaculties()).find((object) => object.name === faculty);
-  if (!loader) return;
+  if (!loader) return null;
   await loader.loadInfo();
   return loader;
 };
@@ -34,13 +27,13 @@ export const getFaculty = async (faculty: string): Promise<Faculty | undefined> 
 export const getDepartment = async (
   faculty: string,
   department: string,
-): Promise<Department | undefined> => {
+): Promise<Department | null> => {
   const facultyLoader = await getFaculty(faculty);
-  if (!facultyLoader) return;
+  if (!facultyLoader) return null;
   const departmentLoader = facultyLoader.departments.find(
     (departmentLoader) => departmentLoader.name === department,
   );
-  if (!departmentLoader) return;
+  if (!departmentLoader) return null;
   await departmentLoader.loadInfo();
   return departmentLoader;
 };
@@ -49,27 +42,24 @@ export const getTeacher = async (
   faculty: string,
   department: string,
   teacher: string,
-): Promise<Teacher | undefined> => {
+): Promise<Teacher | null> => {
   const departmentLoader = await getDepartment(faculty, department);
-  if (!departmentLoader) return;
+  if (!departmentLoader) return null;
   const teacherLoader = departmentLoader.teachers.find(
     (teacherLoader) => teacherLoader.name === teacher,
   );
-  if (!teacherLoader) return;
+  if (!teacherLoader) return null;
   await teacherLoader.loadInfo();
   return teacherLoader;
 };
 
-export const getDeanery = async (
-  faculty: string,
-  deanery: string,
-): Promise<Deanery | undefined> => {
+export const getDeanery = async (faculty: string, deanery: string): Promise<Deanery | null> => {
   const facultyLoader = await getFaculty(faculty);
-  if (!facultyLoader) return;
+  if (!facultyLoader) return null;
   const deaneryLoader = facultyLoader.deanery.find(
     (deaneryLoader) => deaneryLoader.name === deanery,
   );
-  if (!deaneryLoader) return;
+  if (!deaneryLoader) return null;
   await deaneryLoader.loadInfo();
   return deaneryLoader;
 };
