@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia } from '@mui/material';
+import { Card, CardContent } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 
 interface IDepartmentCard {
@@ -10,7 +10,6 @@ const DepartmentCard = ({ name, faculty }: IDepartmentCard) => {
   const nameToLink = name?.trim().split(' ').join('_');
   return (
     <Card sx={{ maxWidth: 350, margin: 4, height: 200, mx: 'auto' }}>
-      <CardMedia title={faculty} />
       <CardContent sx={{ textAlign: 'center', padding: 5 }}>
         <RouterLink
           to={'/archive/' + faculty + '/departments/' + nameToLink}
