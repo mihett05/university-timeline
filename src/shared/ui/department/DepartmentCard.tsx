@@ -1,4 +1,4 @@
-import { Card, CardContent } from '@mui/material';
+import { Card, CardContent, Link } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { translate } from '~/shared/links';
 
@@ -10,14 +10,18 @@ interface DepartmentCardProps {
 const DepartmentCard = ({ name, faculty }: DepartmentCardProps) => {
   console.log([name, translate(name)]);
   return (
-    <Card sx={{ maxWidth: 350, margin: 4, height: 200, mx: 'auto' }}>
+    <Card sx={{ height: '100%' }}>
       <CardContent sx={{ textAlign: 'center', padding: 5 }}>
-        <RouterLink
+        <Link
+          component={RouterLink}
           to={'/archive/' + faculty + '/departments/' + name}
-          style={{ textDecoration: 'none' }}
+          textAlign="center"
+          sx={{
+            wordWrap: 'break-word',
+          }}
         >
           {translate(name)}
-        </RouterLink>
+        </Link>
       </CardContent>
     </Card>
   );

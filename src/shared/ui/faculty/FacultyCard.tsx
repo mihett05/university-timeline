@@ -1,5 +1,6 @@
-import { Card, CardContent, CardMedia } from '@mui/material';
+import { Card, CardContent, CardMedia, Link } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
+import { translate } from '~/shared/links';
 
 interface IFacultyCard {
   logo: string;
@@ -7,14 +8,13 @@ interface IFacultyCard {
 }
 
 const FacultyCard = ({ logo, name }: IFacultyCard) => {
-  const facultyName = name.trim().split('_').join(' ');
   return (
-    <Card sx={{ maxWidth: 350, margin: 4, height: 345, mx: 'auto' }}>
+    <Card sx={{ height: '100%' }}>
       <CardMedia sx={{ height: 200, backgroundSize: 'contain' }} image={logo} title={name} />
       <CardContent sx={{ textAlign: 'center', padding: 5 }}>
-        <RouterLink to={`/archive/${name}`} style={{ textDecoration: 'none' }}>
-          {facultyName}
-        </RouterLink>
+        <Link to={`/archive/${name}`} component={RouterLink}>
+          {translate(name)}
+        </Link>
       </CardContent>
     </Card>
   );

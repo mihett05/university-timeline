@@ -8,9 +8,7 @@ export default function ArchiveBreadcrumbs() {
   return (
     <Breadcrumbs
       sx={{
-        width: '100%',
-        margin: '5%',
-        mt: 5,
+        my: 3,
         fontWeight: 600,
       }}
     >
