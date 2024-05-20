@@ -9,6 +9,6 @@ export const router = createBrowserRouter([
   },
   {
     path: '/archive',
-    element: <ArchivePage />
+    element: <ArchivePage />,
   },
 ]);

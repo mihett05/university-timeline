@@ -1,9 +1,7 @@
-import FacultyList from "~/shared/ui/FacultyList"
+import FacultyList from '~/shared/ui/FacultyList';
 
 const ArchivePage = () => {
-    return (
-        <FacultyList />
-    )
-}
+  return <FacultyList />;
+};
 
-export default ArchivePage
+export default ArchivePage;
