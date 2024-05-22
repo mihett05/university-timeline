@@ -84,9 +84,13 @@ def remove_unnecessary_links(file_path: str, encoding='utf8'):
             file.write(data)
 
 
-def apply_function_to_files(func: Callable, extension: str = '.md', work_path=str(Path(__file__).parent.parent)):
+def apply_function_to_files(
+    func: Callable,
+    extension: str = '.md',
+    work_path: Path | str = Path(__file__).parent.parent
+):
     logging.info(f'Searching "apply_function_to_files" path: {os.path.basename(work_path)}')
-    for obj in listdir(work_path):
+    for obj in listdir(str(work_path)):
         obj_path = join(work_path, obj)
 
         if isfile(obj_path):
@@ -175,6 +179,8 @@ def main(path_to_write: Path, path_to_read='output'):
 
         create_files_and_dirs(path_to_write, faculty)
         logging.info(f'End parsing faculty "{file}"')
+
+    apply_function_to_files(remove_unnecessary_links, work_path=path_to_write)
 
 
 if __name__ == '__main__':
