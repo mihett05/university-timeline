@@ -17,7 +17,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-teoreticheskoj-fiziki/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------
 
 

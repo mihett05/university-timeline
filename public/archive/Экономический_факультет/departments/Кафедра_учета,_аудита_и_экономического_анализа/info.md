@@ -35,7 +35,7 @@
    
 
 [**Михаил Анатольевич Городилов**](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/g/mikhail-anatolevich-gorodilov)
-[О кафедре](http://www.psu.ru/fakultety/ekonomicheskij-fakultet/kafedry/kafedra-ucheta-audita-i-ekonomicheskogo-analiza/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------------
 
 

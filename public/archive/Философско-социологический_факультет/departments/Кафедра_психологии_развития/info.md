@@ -8,7 +8,7 @@
    
 
 **Светлана Юрьевна Жданова**
-[О кафедре](http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/kafedry/kafedra-psikhologii-razvitiya/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------------
 
 
@@ -18,4 +18,3 @@
    
 
 
-[подробнее >>](http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/kafedry/kafedra-psikhologii-razvitiya/o-kafedre)

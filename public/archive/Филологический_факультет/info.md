@@ -35,4 +35,3 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/filologicheskij-fakultet/o-fakultete-fil/o-fakultete)

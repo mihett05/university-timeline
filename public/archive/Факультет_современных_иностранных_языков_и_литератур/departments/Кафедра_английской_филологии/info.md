@@ -1,4 +1,4 @@
-[О кафедре](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-anglijskoj-filologii/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------------------------
 
 

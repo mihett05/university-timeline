@@ -1,4 +1,4 @@
-[О кафедре](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-mezhdunarodnogo-i-evropejskogo-prava/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------------
 
 

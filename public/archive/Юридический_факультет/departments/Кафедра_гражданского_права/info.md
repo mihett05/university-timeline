@@ -35,7 +35,7 @@
    
 
  (342) 2-396-525
-[О кафедре](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-grazhdanskogo-prava/o-kafedre)
+О кафедре
 --------------------------------------------------------------------------------------------
 
 
@@ -80,13 +80,13 @@
    
 
 
-[подробнее >>](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-grazhdanskogo-prava/o-kafedre) 
+ 
 
 
 
 
 
-[История кафедры](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-grazhdanskogo-prava/istoriya-kafedry)
+История кафедры
 ---------------------------------------------------------------------------------------------------------
 
 

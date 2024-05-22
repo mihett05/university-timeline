@@ -35,7 +35,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/khimicheskij-fakultet/kafedry/kafedra-neorganicheskoj-khimii/o-kafedre)
+О кафедре
 ----------------------------------------------------------------------------------------------
 
 

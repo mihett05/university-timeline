@@ -26,17 +26,17 @@
 [Научно-исследовательская деятельность кафедры](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-lingvistiki-i-perevoda/nauchno-issledovatelskaya-deyatelnost-kafedry) 
 
 
-[Международная деятельность кафедры](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-lingvistiki-i-perevoda/mezhdunarodnaya-deyatelnost-kafedry) 
+Международная деятельность кафедры 
   
 
-[Научные журналы](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-lingvistiki-i-perevoda/nauchnye-zhurnaly) 
+Научные журналы 
 
 
-[Отзывы наших выпускников](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-romanskoj-filologii/otzyvy-nashikh-vypusknikov) 
+Отзывы наших выпускников 
   
 
-[Архив новостей кафедры](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-romanskoj-filologii/arkhiv-novostej-kafedry)
-[О кафедре](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-lingvistiki-i-perevoda/o-kafedre)
+Архив новостей кафедры
+О кафедре
 -------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -44,9 +44,9 @@
 
 
  Кафедра лингвистики и перевода создана на факультете современных иностранных языков и литератур 1 марта 2015 года на основе объединения двух кафедр:
- [кафедры английской филологии](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-anglijskoj-filologii) 
+ кафедры английской филологии 
  и
- [кафедры романской филологии](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-romanskoj-filologii) 
+ кафедры романской филологии 
  .
    
 
@@ -67,4 +67,3 @@
  .
  
 
-[подробнее >>](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-lingvistiki-i-perevoda/o-kafedre)

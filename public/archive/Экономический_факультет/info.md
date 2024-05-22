@@ -43,4 +43,3 @@
    
 
 
-[подробнее >>](http://www.psu.ru/fakultety/ekonomicheskij-fakultet/o-fakultete-ekon/o-fakultete)

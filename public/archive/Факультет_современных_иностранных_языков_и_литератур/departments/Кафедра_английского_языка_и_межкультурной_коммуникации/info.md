@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-anglijskogo-yazyka-i-mezhkulturnoj-kommunikatsii/o-kafedre)
+О кафедре
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

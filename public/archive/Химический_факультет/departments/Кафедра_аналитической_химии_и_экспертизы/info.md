@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/khimicheskij-fakultet/kafedry/kafedra-analiticheskoj-khimii/o-kafedre)
+О кафедре
 ---------------------------------------------------------------------------------------------
 
 

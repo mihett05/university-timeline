@@ -13,7 +13,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/geograficheskij-fakultet/kafedry/kafedra-biogeotsenologii-i-okhrany-prirody/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------------
 
 

@@ -10,7 +10,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/geograficheskij-fakultet/kafedry/kafedra-kartografii-i-geoinformatiki/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------
 
 

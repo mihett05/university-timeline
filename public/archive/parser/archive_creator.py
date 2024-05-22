@@ -6,10 +6,13 @@ from os import listdir
 from os.path import isfile, join
 from pathlib import Path
 
+from typing import Callable
+
 import requests
 
-from src.archive.parser.utils import make_dir_if_not_exists
+from public.archive.parser.utils import make_dir_if_not_exists
 
+make_dir_if_not_exists('logs')
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
@@ -61,6 +64,38 @@ def save_collection(base_path: str, collection: list[dict], default_img_extensio
     logging.info(f'\t\t\t\tEnd saving collection')
 
 
+def remove_unnecessary_links(file_path: str, encoding='utf8'):
+    pattern = r'\[(\«|)[а-яА-Я\s\ \>]+\]\(http(s|):\/\/[a-zA-Z\.\/\-]*\)'
+    with open(file_path, encoding=encoding) as file:
+        data = file.read()
+
+    flag = False
+    search = re.finditer(pattern, data)
+    for match in search:
+        key_string = match.group(0).strip()
+        flag = True
+        if 'подробнее' in key_string:
+            data = data.replace(key_string, '')
+        else:
+            data = data.replace(key_string, key_string[key_string.index('[') + 1: key_string.index(']')])
+
+    if flag:
+        with open(file_path, 'w', encoding=encoding) as file:
+            file.write(data)
+
+
+def apply_function_to_files(func: Callable, extension: str = '.md', work_path=str(Path(__file__).parent.parent)):
+    logging.info(f'Searching "apply_function_to_files" path: {os.path.basename(work_path)}')
+    for obj in listdir(work_path):
+        obj_path = join(work_path, obj)
+
+        if isfile(obj_path):
+            if obj.endswith(extension):
+                func(obj_path)
+        else:
+            apply_function_to_files(func, work_path=obj_path)
+
+
 def create_files_and_dirs(path_to_write, faculty: dict):
     """
     :param path_to_write:
@@ -85,7 +120,7 @@ def create_files_and_dirs(path_to_write, faculty: dict):
                             info.md
                             info.jpg
     """
-    pattern = r'[а-яА-Я\s]*'
+    pattern = r'[\«а-яА-Я\s]*'
 
     faculty_name = join(path_to_write, faculty['text'].replace(' ', '_'))
     faculty_deanery_name = join(faculty_name, 'deanery')
@@ -144,4 +179,4 @@ def main(path_to_write: Path, path_to_read='output'):
 
 if __name__ == '__main__':
     path = Path(__file__).parent.parent
-    main(path)
+    apply_function_to_files(remove_unnecessary_links)

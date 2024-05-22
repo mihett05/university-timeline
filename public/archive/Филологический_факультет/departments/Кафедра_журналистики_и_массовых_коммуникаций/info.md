@@ -8,7 +8,7 @@
 
 
  (342) 2-396-621
-[О кафедре](http://www.psu.ru/fakultety/filologicheskij-fakultet/kafedry/kafedra-zhurnalistiki/o-kafedre)
+О кафедре
 ----------------------------------------------------------------------------------------
 
 
@@ -21,9 +21,9 @@
   
 
  В структуру кафедры входят
- [учебная телевизионная студия](http://www.psu.ru/fakultety/filologicheskij-fakultet/laboratorii/uchebnaya-televizionnaya-studiya) 
+ учебная телевизионная студия 
  и
- [лаборатория политики культурного наследия](http://www.psu.ru/fakultety/filologicheskij-fakultet/laboratorii/laboratoriya-politiki-kulturnogo-naslediya-im-p-s-bogoslovskogo) 
+ лаборатория политики культурного наследия 
  .
    
 
@@ -35,7 +35,7 @@
   
 
  На сегодняшний день
- [выпускники кафедры](http://www.psu.ru/fakultety/filologicheskij-fakultet/kafedry/kafedra-zhurnalistiki/uspeshnye-vypuskniki-kafedry) 
+ выпускники кафедры 
  успешно работают в организациях, занятых информационной и коммуникационной деятельностью – в газетах и интернет-изданиях, на телевидении и радио, в рекламных агентствах и отделах по связям с общественностью. Некоторые из выпускников кафедры добились выдающихся результатов в общественной деятельности и творчестве.
    
 
@@ -65,7 +65,7 @@
  3. По направлению
  **42.03.05 «Медиакоммуникации»** 
  ведётся подготовка бакалавров для профессиональной деятельности в медиаиндустрии. Выпускники смогут совмещать авторскую, редакторскую, проектную, маркетинговую и организационную деятельность в области информационных и коммуникационных технологий. Образование имеет ярко выраженный прикладной характер в соответствии с нормами бакалавриата.
- [Подробнее](http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mediakommunikatsii-bakalavriat) 
+ Подробнее 
   
 
   
@@ -83,14 +83,14 @@
  42.04.02. Журналистика по профилю
  **«Интернет-журналистика»** 
  .
- [Подробнее](http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-zhurnalistika-magistratura) 
+ Подробнее 
   
 
 **42.04.01. Реклама и связи с общественностью** 
  по профилю
  **«Трансмедийные стратегические коммуникации»** 
  .
- [Подробнее](http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-reklama-i-svyazi-s-obshchestvennostyu-magistratura) 
+ Подробнее 
   
 
   
@@ -106,64 +106,64 @@
 
 
 
-[Владимир Васильевич Абашев](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/a/vladimir-vasilevich-abashev) 
+Владимир Васильевич Абашев 
   
 
-[Марина Петровна Абашева](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/a/marina-petrovna-abasheva) 
+Марина Петровна Абашева 
   
 
-[Ольга Игоревна Аверкиева](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/a/olga-igorevna-averkieva) 
+Ольга Игоревна Аверкиева 
   
 
-[Зоя Сергеевна Антипина](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/a/zoya-sergeevna-antipina) 
+Зоя Сергеевна Антипина 
   
 
-[Владислав Викторович Аскариди](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/a/vladislav-viktorovich-askaridi) 
+Владислав Викторович Аскариди 
   
 
-[Валерия Юрьевна Березина](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/b/valeriya-yurevna-berezina) 
+Валерия Юрьевна Березина 
   
 
-[Елена Евгеньевна Бразговская](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/b/elena-evgenevna-brazgovskaya) 
+Елена Евгеньевна Бразговская 
   
 
-[Вячеслав Сергеевич Варанкин](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/v/vyacheslav-sergeevich-varankin) 
+Вячеслав Сергеевич Варанкин 
   
 
-[Виктор Андреевич Вишневский](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/v/viktor-andreevich-vishnevskij) 
+Виктор Андреевич Вишневский 
   
 
 [Елена Георгиевна Власова](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/v/elena-georgievna-vlasova#ym_playback=linkmap) 
   
 
-[Елена Павловна Гурова](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/g/elena-pavlovna-gurova) 
+Елена Павловна Гурова 
   
 
-[Алексей Андреевич Гущин](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/g/aleksej-andreevich-gushchin) 
+Алексей Андреевич Гущин 
   
 
-[Полина Сергеевна Демина](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/d/polina-sergeevna-demina) 
+Полина Сергеевна Демина 
   
 
-[Ольга Александровна Дерягина](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/d/olga-aleksandrovna-deryagina) 
+Ольга Александровна Дерягина 
   
 
-[Наталья Львовна Зелянская](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/z/natalya-lvovna-zelyanskaya) 
+Наталья Львовна Зелянская 
   
 
-[Андрей Николаевич Кабацков](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/k/andrej-nikolaevich-kabatskov) 
+Андрей Николаевич Кабацков 
   
 
-[Дмитрий Андреевич Колодкин](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/k/dmitrij-andreevich-kolodkin) 
+Дмитрий Андреевич Колодкин 
   
 
-[Евгения Александровна Князева](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/k/evgeniya-aleksandrovna-knyazeva) 
+Евгения Александровна Князева 
   
 
-[Даниил Сергеевич Курушин](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/k/daniil-sergeevich-kurushin) 
+Даниил Сергеевич Курушин 
   
 
-[Диана Игоревна Мясникова](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/m/diana-igorevna-myasnikova) 
+Диана Игоревна Мясникова 
   
 
   
@@ -172,59 +172,59 @@
 
 
 
-[Елена Мечиславовна Крижановская](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/k/elena-mechislavovna-krizhanovskaya) 
+Елена Мечиславовна Крижановская 
   
 
-[Галина Васильевна Куличкина](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/k/galina-vasilevna-kulichkina) 
+Галина Васильевна Куличкина 
   
 
-[Константин Александрович Лях](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/l/konstantin-aleksandrovich-lyakh) 
+Константин Александрович Лях 
   
 
-[Михаил Андреевич Манокин](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/m/mikhail-andreevich-manokin) 
+Михаил Андреевич Манокин 
   
 
-[Татьяна Николаевна Масальцева](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/m/tatyana-nikolaevna-masaltseva) 
+Татьяна Николаевна Масальцева 
   
 
-[Валерий Александрович Мишланов](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/m/valerij-aleksandrovich-mishlanov) 
+Валерий Александрович Мишланов 
   
 
-[Ирина Германовна Овчинникова](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/o/irina-germanovna-ovchinnikova) 
+Ирина Германовна Овчинникова 
   
 
-[Наталья Михайловна Нестерова](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/n/natalya-mikhajlovna-nesterova) 
+Наталья Михайловна Нестерова 
   
 
-[Иван Михайлович Печищев](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/p/ivan-mikhajlovich-pechishchev) 
+Иван Михайлович Печищев 
   
 
-[Николай Филиппович Пономарев](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/p/nikolaj-filippovich-ponomarev) 
+Николай Филиппович Пономарев 
   
 
-[Алексей Васильевич Пустовалов](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/p/aleksej-vasilevich-pustovalov) 
+Алексей Васильевич Пустовалов 
   
 
-[Александр Вячеславович Романов](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/r/alexander-vyacheslavovich-romanov) 
+Александр Вячеславович Романов 
   
 
-[Владимир Александрович Салимовский](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/s/vladimir-aleksandrovich-salimovskij) 
+Владимир Александрович Салимовский 
   
 
-[Анна Александровна Сидякина](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/s/anna-aleksandrovna-sidyakina)
-[Наталья Юрьевна Фомина](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/f/natalya-yurevna-fomina) 
+Анна Александровна Сидякина
+Наталья Юрьевна Фомина 
   
 
-[Евгения Николаевна Харебова](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/kh/evgeniya-nikolaevna-harebova) 
+Евгения Николаевна Харебова 
   
 
-[Екатерина Сергеевна Худякова](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/kh/ekaterina-sergeevna-khudyakova) 
+Екатерина Сергеевна Худякова 
   
 
-[Лариса Львовна Черепанова](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/ch/larisa-lvovna-cherepanova) 
+Лариса Львовна Черепанова 
   
 
-[Константин Эдуардович Шумов](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/sh/konstantin-eduardovich-shumov) 
+Константин Эдуардович Шумов 
   
 
-[Денис Владимирович Яруллин](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/ya/denis-vladimirovich-yarullin)
+Денис Владимирович Яруллин

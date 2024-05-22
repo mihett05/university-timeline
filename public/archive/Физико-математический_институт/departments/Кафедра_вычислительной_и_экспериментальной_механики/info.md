@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-mekhaniki-sploshnykh-sred-i-vychislitelnykh-tekhnologij/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 

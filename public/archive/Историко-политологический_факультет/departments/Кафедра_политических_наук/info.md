@@ -5,7 +5,7 @@
    
 
 **Константин Андреевич Сулимов**
-[О кафедре](http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/kafedry/kafedra-politicheskikh-nauk/o-kafedre)
+О кафедре
 ---------------------------------------------------------------------------------------------------------
 
 

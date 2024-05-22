@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/geograficheskij-fakultet/kafedry/kafedra-meteorologii-i-okhrany-atmosfery/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------
 
 

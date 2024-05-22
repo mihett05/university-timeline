@@ -17,7 +17,7 @@
    
 
  +7 (342) 239-63-54
-[О кафедре](http://www.psu.ru/fakultety/geograficheskij-fakultet/kafedry/kafedra-turizma/o-kafedre)
+О кафедре
 ----------------------------------------------------------------------------------
 
 

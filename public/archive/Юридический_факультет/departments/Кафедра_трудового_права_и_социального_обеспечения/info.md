@@ -1,4 +1,4 @@
-[О кафедре](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-trudovogo-prava-i-sotsialnogo-obespecheniya/o-kafedre)
+О кафедре
 --------------------------------------------------------------------------------------------------------------------
 
 

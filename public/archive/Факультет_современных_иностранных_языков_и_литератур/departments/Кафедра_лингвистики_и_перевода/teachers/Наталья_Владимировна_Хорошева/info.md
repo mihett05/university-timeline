@@ -26,13 +26,13 @@
 [Научно-исследовательская деятельность кафедры](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-lingvistiki-i-perevoda/nauchno-issledovatelskaya-deyatelnost-kafedry) 
 
 
-[Международная деятельность кафедры](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-lingvistiki-i-perevoda/mezhdunarodnaya-deyatelnost-kafedry) 
+Международная деятельность кафедры 
   
 
-[Научные журналы](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-lingvistiki-i-perevoda/nauchnye-zhurnaly) 
+Научные журналы 
 
 
-[Отзывы наших выпускников](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-romanskoj-filologii/otzyvy-nashikh-vypusknikov) 
+Отзывы наших выпускников 
   
 
-[Архив новостей кафедры](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-romanskoj-filologii/arkhiv-novostej-kafedry)
+Архив новостей кафедры

@@ -8,7 +8,7 @@
   
 
  2-396-429
-[О кафедре](http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-mineralogii-i-petrografii/o-kafedre)
+О кафедре
 ---------------------------------------------------------------------------------------------------
 
 

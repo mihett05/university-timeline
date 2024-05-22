@@ -15,7 +15,7 @@
 
 
   
-[История](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-botaniki-i-genetiki-rastenij/istoriya)
+История
 ---------------------------------------------------------------------------------------------------
 
 
@@ -27,13 +27,13 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-botaniki-i-genetiki-rastenij/istoriya) 
+ 
 
 
 
 
 
-[О кафедре](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-botaniki-i-genetiki-rastenij/o-kafedre)
+О кафедре
 ------------------------------------------------------------------------------------------------------
 
 
@@ -46,4 +46,3 @@
 
  На кафедре производится обучение в аспирантуре по специальностям «Ботаника», «Генетика», «Микология», «Экология». Ежегодно на кафедре обучается 30-32 студентов бакалавриата, около 20-24 магистрантов и от 4 до 7 аспирантов.
  
-[подробнее >>](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-botaniki-i-genetiki-rastenij/o-kafedre)

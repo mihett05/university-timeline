@@ -1,4 +1,4 @@
-[О кафедре](http://www.psu.ru/fakultety/filologicheskij-fakultet/kafedry/kafedra-rechevoj-kommunikatsii/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------
 
 

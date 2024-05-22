@@ -15,7 +15,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-obshchej-fiziki/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------
 
 
@@ -58,7 +58,7 @@
 
 
 
-[История кафедры](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-obshchej-fiziki/istorija-kafedry-obshej-fiziki)
+История кафедры
 ----------------------------------------------------------------------------------------------------------------------------
 
 
@@ -73,4 +73,3 @@
    
 
 
-[подробнее >>](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-obshchej-fiziki/istorija-kafedry-obshej-fiziki)

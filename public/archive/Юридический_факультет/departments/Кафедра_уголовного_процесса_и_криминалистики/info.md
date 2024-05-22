@@ -28,7 +28,7 @@
    
 
  (342) 2-396-709
-[О кафедре](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-ugolovnogo-protsessa-i-kriminalistiki/o-kafedre)
+О кафедре
 --------------------------------------------------------------------------------------------------------------
 
 

@@ -35,7 +35,7 @@
    
 
  (342) 2-396-630
-[О кафедре](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-sotsialnoj-raboty/o-kafedre)
+О кафедре
 ------------------------------------------------------------------------------------------
 
 

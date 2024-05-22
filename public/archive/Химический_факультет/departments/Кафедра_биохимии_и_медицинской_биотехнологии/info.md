@@ -9,7 +9,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/khimicheskij-fakultet/kafedry/kafedra-biokhimii-i-meditsinskoj-biotekhnologii/o-kafedre)
+О кафедре
 ---------------------------------------------------------------------------------------------------------------
 
 

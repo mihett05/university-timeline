@@ -5,7 +5,7 @@
    
 
 **Евгений Валерьевич Конышев**
-[О кафедре](http://www.psu.ru/fakultety/geograficheskij-fakultet/kafedry/kafedra-sotsialno-ekonomicheskoj-geografii/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------------
 
 

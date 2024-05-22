@@ -17,7 +17,7 @@
   
 
  каб. 168, корп. 5.
-[О кафедре](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-anglijskogo-yazyka-i-professionalnoj-kommunikatsii/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

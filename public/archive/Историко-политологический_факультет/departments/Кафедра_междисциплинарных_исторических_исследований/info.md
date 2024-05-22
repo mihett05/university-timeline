@@ -5,7 +5,7 @@
    
 
 **Галина Александровна Янковская**
-[О кафедре](http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/kafedry/kafedra-mezhdistsiplinarnykh-istoricheskikh-issledovanij/o-kafedre)
+О кафедре
 --------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -25,4 +25,3 @@
    
 
 
-[подробнее >>](http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/kafedry/kafedra-mezhdistsiplinarnykh-istoricheskikh-issledovanij/o-kafedre)

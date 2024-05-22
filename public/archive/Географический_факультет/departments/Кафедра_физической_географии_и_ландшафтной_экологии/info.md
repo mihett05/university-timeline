@@ -42,7 +42,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/geograficheskij-fakultet/kafedry/kafedra-fizicheskoj-geografii-i-landshaftnoj-ekologii/o-kafedre)
+О кафедре
 ------------------------------------------------------------------------------------------------------------------------
 
 

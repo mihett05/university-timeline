@@ -5,7 +5,7 @@
    
 
 **Елизавета Александровна Троицкая**
-[О кафедре](http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/kafedry/kafedra-gosudarstvennogo-i-munitsipalnogo-upravleniya/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------------------------------
 
 

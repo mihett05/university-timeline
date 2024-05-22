@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup, element
 from requests import get
 from markdownify import markdownify
 
-from src.archive.parser.utils import make_dir_if_not_exists
+from public.archive.parser.utils import make_dir_if_not_exists
 
 make_dir_if_not_exists('logs')
 logging.basicConfig(

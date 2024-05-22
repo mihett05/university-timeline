@@ -23,9 +23,9 @@
   
 
 
-[Музей зоологии позвоночных животных](http://www.psu.ru/universitetskaya-zhizn/musei-universiteta-menu/muzej-zoologii-pozvonochnykh)
+Музей зоологии позвоночных животных
 ------------------------------------------------------------------------------------------------------------------------------------
-[История кафедры](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-zoologii-pozvonochnykh-i-ekologii/istoriya-kafedry)
+История кафедры
 ------------------------------------------------------------------------------------------------------------------------
 
 
@@ -38,13 +38,13 @@
 
  Первым заведующим кафедрой стал ихтиолог, доцент А.М. Попов, проработавший в этой должности около 1 года. Затем его сменил известный в стране профессор Александр Николаевич Пробатов.
  
-[подробнее >>](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-zoologii-pozvonochnykh-i-ekologii/istoriya-kafedry) 
+ 
 
 
 
 
 
-[О кафедре](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-zoologii-pozvonochnykh-i-ekologii/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------
 
 

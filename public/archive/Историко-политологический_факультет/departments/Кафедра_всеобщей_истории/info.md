@@ -1,4 +1,4 @@
-[О кафедре](http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/kafedry/kafedra-vseobshchej-istorii/o-kafedre)
+О кафедре
 ---------------------------------------------------------------------------------------------------------
 
 

@@ -12,7 +12,7 @@
 
 
   
-[История кафедры](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-zoologii-bespozvonochnykh-i-vodnoj-ekologii/istoriya-kafedry)
+История кафедры
 ----------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -26,13 +26,13 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-zoologii-bespozvonochnykh-i-vodnoj-ekologii/istoriya-kafedry) 
+ 
 
 
 
 
 
-[О кафедре](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-zoologii-bespozvonochnykh-i-vodnoj-ekologii/o-kafedre)
+О кафедре
 ---------------------------------------------------------------------------------------------------------------------
 
 
@@ -59,4 +59,3 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-zoologii-bespozvonochnykh-i-vodnoj-ekologii/o-kafedre)

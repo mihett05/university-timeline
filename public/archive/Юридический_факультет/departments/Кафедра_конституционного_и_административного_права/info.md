@@ -39,7 +39,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-konstitutsionnogo-i-finansovogo-prava/o-kafedre)
+О кафедре
 --------------------------------------------------------------------------------------------------------------
 
 

@@ -37,7 +37,7 @@
   
 
  (342) 2-396-512
-[О кафедре](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-ugolovnogo-prava-i-prokurorskogo-nadzora/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------------
 
 

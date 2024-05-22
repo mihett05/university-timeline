@@ -15,7 +15,7 @@
   
 
  В состав факультета современных иностранных языков и литератур входят пять
- [кафедр](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry) 
+ кафедр 
  :
    
 
@@ -42,7 +42,7 @@
   
 
  На факультете реализуется обучение по следующим
- [образовательным программам](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti) 
+ образовательным программам 
  :
    
 
@@ -75,4 +75,3 @@
   
 
 
-[подробнее >>](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/o-fakultete-sial/o-fakultete)

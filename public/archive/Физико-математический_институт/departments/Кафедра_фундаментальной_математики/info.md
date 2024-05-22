@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-fundamentalnoj-matematiki/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------
 
 

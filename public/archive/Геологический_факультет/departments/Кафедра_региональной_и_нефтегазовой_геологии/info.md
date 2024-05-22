@@ -5,7 +5,7 @@
    
 
 **Елена Евгеньевна Кожевникова**
-[О кафедре](http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-regionalnoj-i-neftegazovoj-geologii/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------------
 
 
