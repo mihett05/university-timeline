@@ -70,10 +70,10 @@ def remove_unnecessary_links(file_path: str, encoding='utf8'):
         data = file.read()
 
     flag = False
-    search = re.finditer(pattern, data)
-    for match in search:
-        key_string = match.group(0).strip()
+    for match in re.finditer(pattern, data):
         flag = True
+        key_string = match.group(0).strip()
+
         if 'подробнее' in key_string:
             data = data.replace(key_string, '')
         else:
