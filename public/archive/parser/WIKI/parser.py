@@ -44,7 +44,7 @@ def parse_building(data: BeautifulSoup, path: str):
         make_dir_if_not_exists(base_img_path)
 
         old_path = join(base_img_path, 'old.jpg')
-        new_path = join(base_img_path, 'old.jpg')
+        new_path = join(base_img_path, 'new.jpg')
 
         save_image(old_path, old_src)
         save_image(new_path, new_src)
