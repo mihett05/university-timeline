@@ -10,7 +10,8 @@ from typing import Callable
 
 import requests
 
-from public.archive.parser.utils import make_dir_if_not_exists
+from public.archive.parser.utils import make_dir_if_not_exists, save_md, save_image, apply_function_to_files, \
+    remove_unnecessary_links
 
 make_dir_if_not_exists('logs')
 logging.basicConfig(
@@ -22,20 +23,6 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-
-
-def save_image(file_path: str, src: str):
-    if os.path.exists(file_path):
-        return
-    with open(file_path, 'wb') as img:
-        img.write(requests.get(src).content)
-
-
-def save_md(file_path: str, src: str):
-    if os.path.exists(file_path):
-        return
-    with open(file_path, 'w', encoding='utf8') as md:
-        md.write(src)
 
 
 def save_collection(base_path: str, collection: list[dict], default_img_extension=None):
@@ -62,42 +49,6 @@ def save_collection(base_path: str, collection: list[dict], default_img_extensio
         else:
             print(item)
     logging.info(f'\t\t\t\tEnd saving collection')
-
-
-def remove_unnecessary_links(file_path: str, encoding='utf8'):
-    pattern = r'\[(\«|)[а-яА-Я\s\ \>]+\]\(http(s|):\/\/[a-zA-Z\.\/\-]*\)'
-    with open(file_path, encoding=encoding) as file:
-        data = file.read()
-
-    flag = False
-    for match in re.finditer(pattern, data):
-        flag = True
-        key_string = match.group(0).strip()
-
-        if 'подробнее' in key_string:
-            data = data.replace(key_string, '')
-        else:
-            data = data.replace(key_string, key_string[key_string.index('[') + 1: key_string.index(']')])
-
-    if flag:
-        with open(file_path, 'w', encoding=encoding) as file:
-            file.write(data)
-
-
-def apply_function_to_files(
-    func: Callable,
-    extension: str = '.md',
-    work_path: Path | str = Path(__file__).parent.parent
-):
-    logging.info(f'Searching "apply_function_to_files" path: {os.path.basename(work_path)}')
-    for obj in listdir(str(work_path)):
-        obj_path = join(work_path, obj)
-
-        if isfile(obj_path):
-            if obj.endswith(extension):
-                func(obj_path)
-        else:
-            apply_function_to_files(func, work_path=obj_path)
 
 
 def create_files_and_dirs(path_to_write, faculty: dict):

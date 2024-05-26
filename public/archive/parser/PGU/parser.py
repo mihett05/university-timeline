@@ -6,17 +6,16 @@ from typing import Any
 
 from bs4 import BeautifulSoup, element
 from requests import get
-from markdownify import markdownify
 
-from public.archive.parser.utils import make_dir_if_not_exists
+from public.archive.parser.utils import make_dir_if_not_exists, get_md_from_tag
 
-make_dir_if_not_exists('logs')
+make_dir_if_not_exists('./logs')
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     encoding='utf8',
     handlers=[
-        logging.FileHandler("logs/parser.log"),
+        logging.FileHandler("./logs/parser.log"),
         logging.StreamHandler()
     ]
 )
@@ -24,10 +23,6 @@ logging.basicConfig(
 
 def fix_links(elements: str):
     return elements.replace('(/', '(http://www.psu.ru/')
-
-
-def get_md_from_tag(tag: element.Tag | str):
-    return markdownify(tag.prettify() if isinstance(tag, element.Tag) else tag)
 
 
 def pre_add_img_src(src: str, prefix: str = 'http://www.psu.ru'):
