@@ -185,4 +185,5 @@ def main(path_to_write: Path, path_to_read='output'):
 
 if __name__ == '__main__':
     path = Path(__file__).parent.parent
-    apply_function_to_files(remove_unnecessary_links)
+    main(path)
+    # apply_function_to_files(remove_unnecessary_links)
