@@ -5,6 +5,7 @@ import { getFaculties, getFaculty, getDeanery, getDepartment, getTeacher } from 
 import ArchivePage from '~/pages/archive';
 import DepartmentPage from '~/pages/department';
 import FacultyPage from '~/pages/faculty';
+import MapPage from '~/pages/map';
 import TeacherPage from '~/pages/teacher';
 import TimeLinePage from '~/pages/timeline';
 import ErrorPage from '~/pages/error';
@@ -75,5 +76,9 @@ export const router = createBrowserRouter([
       }
       return deanery;
     },
+  },
+  {
+    path: '/map',
+    element: <MapPage />,
   },
 ]);
