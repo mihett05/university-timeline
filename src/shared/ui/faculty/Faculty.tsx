@@ -6,6 +6,7 @@ import TeacherList from '../teacher/TeacherList';
 import Layout from '~/shared/ui/layout';
 import { IFaculty } from '~/shared/types';
 import { translate } from '~/shared/links';
+import LazyImage from '../lazy-image';
 
 type FacultyProps = {
   faculty: IFaculty;
@@ -20,7 +21,7 @@ const Faculty = ({ faculty }: FacultyProps) => {
           {translate(faculty.name)}
         </Typography>
         <Box>
-          <img src={faculty.logo} alt="Фотография факультета" />
+          <LazyImage src={faculty.logo} alt="Фотография факультета" />
           <Markdown>{faculty.info}</Markdown>
         </Box>
       </Box>

@@ -17,6 +17,7 @@ import TeacherPage from '~/pages/teacher';
 import TimeLinePage from '~/pages/timeline';
 import ErrorPage from '~/pages/error';
 import DeaneryPage from '~/pages/deanery';
+import { getBuildings } from '~/shared/loader/buildings';
 
 export const router = createBrowserRouter([
   {
@@ -90,5 +91,8 @@ export const router = createBrowserRouter([
   {
     path: '/map',
     element: <MapPage />,
+    loader: async () => {
+      return getBuildings();
+    },
   },
 ]);

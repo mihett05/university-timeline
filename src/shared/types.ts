@@ -33,3 +33,9 @@ export interface IEvent {
   }[];
   medias: string[];
 }
+
+export interface IBuilding {
+  name: string;
+  text: string;
+  medias: string[];
+}

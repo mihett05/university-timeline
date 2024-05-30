@@ -2,8 +2,8 @@ const SVGMap = () => {
   return (
     <>
       <svg
-        width={1080}
-        height={1600}
+        width="100vw"
+        height="80vh"
         viewBox="0 0 1080 1600"
         version="1.1"
         id="svg5"
@@ -724,7 +724,7 @@ const SVGMap = () => {
           x="983.44696"
           y="583.37531"
         />
-        <g id="BUILDING_14" transform="matrix(1.0125007,0,0,0.96478718,-5.2260161,18.69754)">
+        <g id="BUILDING_16" transform="matrix(1.0125007,0,0,0.96478718,-5.2260161,18.69754)">
           <rect
             style={{ fill: '#000000', strokeWidth: '1.16411' }}
             id="rect9833"
@@ -758,7 +758,7 @@ const SVGMap = () => {
             id="text20866-0"
           >
             <tspan id="tspan20864-6" x="463.35449" y="786.37769">
-              14
+              16
             </tspan>
           </text>
           <rect

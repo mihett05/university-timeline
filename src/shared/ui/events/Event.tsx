@@ -1,8 +1,7 @@
 import { Box, Divider, Paper, Typography, useMediaQuery, Link } from '@mui/material';
 import Markdown from 'react-markdown';
 import { Link as RouterLink } from 'react-router-dom';
-
-import background from '~/shared/assets/timeline-bg.jpg';
+import LazyImage from '~/shared/ui/lazy-image';
 
 interface IEvent {
   name: string;
@@ -26,8 +25,6 @@ const Event = ({ name, text, objects, media }: IEvent) => {
       sx={{
         minHeight: '100vh',
         height: '100%',
-        backgroundImage: `linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) ), url(${background})`,
-        backgroundSize: 'cover',
       }}
     >
       <Typography variant="h4" sx={{ textAlign: 'center', flex: '1' }}>
@@ -46,7 +43,7 @@ const Event = ({ name, text, objects, media }: IEvent) => {
         <Paper
           sx={{
             p: 3,
-            minHeight: '92vh',
+            minHeight: '80vh',
             height: 'auto',
             alignSelf: 'stretch',
             flex: isDesktop ? '1' : 'unset',
@@ -61,7 +58,6 @@ const Event = ({ name, text, objects, media }: IEvent) => {
               display: 'flex',
               flexDirection: 'column',
               overflow: 'hidden',
-              height: '92vh',
               maxWidth: isDesktop ? '30vw' : '100%',
               gap: 1,
             }}
@@ -70,13 +66,13 @@ const Event = ({ name, text, objects, media }: IEvent) => {
               return (
                 <>
                   {isImage(mediaElement) ? (
-                    <img
+                    <LazyImage
                       src={mediaElement}
                       alt={mediaElement}
                       key={mediaElement}
                       style={{
                         objectFit: 'contain',
-                        height: `${parseInt((100 / media.length).toFixed()) - 8}vh`,
+                        height: `${parseInt((100 / media.length).toFixed()) - 20}vh`,
                         width: isDesktop ? '25vw' : '100%',
                         border: '1px solid #000',
                         borderRadius: '10px',
@@ -96,9 +92,17 @@ const Event = ({ name, text, objects, media }: IEvent) => {
             px: 2,
           }}
         >
-          <Box textAlign="end">
+          <Box
+            sx={{
+              display: 'flex',
+              justifyContent: 'space-around',
+            }}
+          >
             <Link to="/archive" component={RouterLink}>
               Архив
+            </Link>
+            <Link to="/map" component={RouterLink}>
+              Карта
             </Link>
           </Box>
           <ul
