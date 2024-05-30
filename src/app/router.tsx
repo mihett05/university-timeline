@@ -1,6 +1,13 @@
 import { createBrowserRouter } from 'react-router-dom';
 
-import { getFaculties, getFaculty, getDeanery, getDepartment, getTeacher } from '~/shared/loader';
+import {
+  getFaculties,
+  getFaculty,
+  getDeanery,
+  getDepartment,
+  getTeacher,
+  getEvents,
+} from '~/shared/loader';
 
 import ArchivePage from '~/pages/archive';
 import DepartmentPage from '~/pages/department';
@@ -15,6 +22,9 @@ export const router = createBrowserRouter([
   {
     path: '/',
     element: <TimeLinePage />,
+    loader: async () => {
+      return getEvents();
+    },
   },
   {
     path: '/archive',

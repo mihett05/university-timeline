@@ -27,7 +27,7 @@ export class EventLoader implements IEvent {
     } else if (file.file.endsWith('events.json')) {
       this.events = await (await fetch(`${basePath}${file.path}`)).json();
     } else {
-      this.medias.push(file.path);
+      this.medias.push(`${basePath}${file.path}`);
     }
   }
 }

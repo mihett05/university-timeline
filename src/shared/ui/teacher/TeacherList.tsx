@@ -17,7 +17,7 @@ const TeacherList = ({ teachers }: TeacherListProps) => {
     <Grid container spacing={1} sx={{ m: 5 }}>
       {teachers.map((teacher) => {
         return (
-          <Grid xs={isDesktop ? 3 : 12} key={faculty + '/' + teacher.name}>
+          <Grid xs={isDesktop ? 4 : 12} key={faculty + '/' + teacher.name}>
             <TeacherCard
               key={faculty + '.' + teacher.name}
               name={teacher.name}

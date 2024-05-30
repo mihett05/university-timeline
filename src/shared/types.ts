@@ -25,6 +25,7 @@ export interface IDeanery {
 }
 
 export interface IEvent {
+  name: string;
   text: string;
   events: {
     year: string;

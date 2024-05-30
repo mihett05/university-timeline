@@ -2,7 +2,7 @@ import { Faculty, Department, Deanery, Teacher, makeArchiveObjectFromPath } from
 
 const getArchiveObjects = () =>
   Object.entries(import.meta.glob(`/public/archive/**/*`))
-    .filter(([path]) => !path.endsWith('py') && !path.endsWith('json'))
+    .filter(([path]) => !path.endsWith('py') && !path.endsWith('json') && !path.includes('parser'))
     .map(([path]) => makeArchiveObjectFromPath(path.replace('/public/archive/', '')));
 
 export const getFaculties = async (): Promise<Faculty[]> => {

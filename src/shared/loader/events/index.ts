@@ -5,15 +5,17 @@ const getEventObjects = () =>
     makeEventObjectFromPath(path.replace('/public/events/', '')),
   );
 
-export const getEvents = () => {
+export const getEvents = async (): Promise<EventLoader[]> => {
   const objects = getEventObjects();
   const events: Record<string, EventLoader> = {};
-  objects.forEach((object) => {
-    if (!events[object.name]) {
-      events[object.name] = new EventLoader(object.name);
-    }
-    events[object.name].handleFile(object);
-  });
+  await Promise.all(
+    objects.map(async (object) => {
+      if (!events[object.name]) {
+        events[object.name] = new EventLoader(object.name);
+      }
+      return await events[object.name].handleFile(object);
+    }),
+  );
 
-  return events;
+  return Object.values(events);
 };
