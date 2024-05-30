@@ -1,4 +1,7 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Divider, Paper, Typography, useMediaQuery, Link } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
+
+import background from '~/shared/assets/timeline-bg.jpg';
 
 interface IEvent {
   name: string;
@@ -21,53 +24,113 @@ const isImage = (file: string) => {
 };
 
 const Event = ({ name, text, objects, media }: IEvent) => {
-  const isMediaEmpty = media.length === 0;
+  const isDesktop = useMediaQuery('(min-width:769px)');
   return (
-    <>
-      <Typography variant="h4" sx={{ textAlign: 'center' }}>
+    <Box
+      sx={{
+        minHeight: '100vh',
+        height: '100%',
+        backgroundImage: `linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) ), url(${background})`,
+        backgroundSize: 'cover',
+      }}
+    >
+      <Typography variant="h4" sx={{ textAlign: 'center', flex: '1' }}>
         {name}
       </Typography>
-      <section
-        className={name}
-        style={{ minHeight: '100vh', display: 'flex', paddingLeft: 100, paddingTop: 5 }}
+      <Box
+        sx={{
+          display: 'flex',
+          m: 5,
+          gap: 1,
+          justifyContent: 'space-between',
+          flexWrap: 'wrap',
+          flexDirection: isDesktop ? 'row' : 'column',
+        }}
       >
-        <Box sx={{ maxWidth: isMediaEmpty ? '50%' : '30%', display: 'flex', alignSelf: 'center' }}>
-          <Typography variant="body1">{text}</Typography>
-        </Box>
-        <Box
+        <Paper
           sx={{
+            p: 3,
+            height: 'auto',
+            alignSelf: 'stretch',
+            flex: isDesktop ? '1' : 'unset',
+          }}
+        >
+          <Typography variant="body1">{text}</Typography>
+        </Paper>
+        <Paper
+          sx={{
+            p: 3,
             display: 'flex',
             flexDirection: 'column',
-            mx: 'auto',
-            maxWidth: '40%',
-            paddingTop: 5,
+            overflow: 'hidden',
+            maxWidth: isDesktop ? '30vw' : '100%',
+            gap: 1,
           }}
         >
           {media.map((mediaElement: string) => {
-            return isImage(mediaElement) ? (
-              <img src={mediaElement} alt={mediaElement} key={mediaElement} />
-            ) : (
-              <video key={mediaElement}>
-                <source src={mediaElement} type="video/mp4" />
-              </video>
+            return (
+              <>
+                {isImage(mediaElement) ? (
+                  <img
+                    src={mediaElement}
+                    alt={mediaElement}
+                    key={mediaElement}
+                    style={{
+                      objectFit: 'fill',
+                      height: `${parseInt((100 / media.length).toFixed()) - 8}vh`,
+                      width: isDesktop ? '25vw' : '100%',
+                      border: '1px solid #000',
+                      borderRadius: '10px',
+                    }}
+                  />
+                ) : null}
+              </>
             );
           })}
-        </Box>
-        <Box sx={{ maxWidth: '20%', display: 'flex', alignSelf: 'center', paddingRight: 5 }}>
-          <ul style={{ listStyleType: 'none' }}>
-            {objects.map((element: IObject) => {
-              return (
+        </Paper>
+        <Paper
+          sx={{
+            maxWidth: isDesktop ? '20%' : '100%',
+            height: 'auto',
+            p: 1,
+          }}
+        >
+          <Box textAlign="end">
+            <Link to="/archive" component={RouterLink}>
+              Архив
+            </Link>
+          </Box>
+          <ul
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              height: '100%',
+              justifyContent: 'space-evenly',
+            }}
+          >
+            {objects.map((element, index) => (
+              <>
                 <li key={element.year + element.name}>
-                  <Typography>
-                    {element.name} : {element.year} год
-                  </Typography>
+                  <Box>
+                    <Typography variant="h6" fontWeight="bold">
+                      {element.name}
+                    </Typography>
+                    <Typography
+                      sx={{
+                        alignSelf: 'center',
+                      }}
+                    >
+                      {element.year} год
+                    </Typography>
+                  </Box>
                 </li>
-              );
-            })}
+                {index !== objects.length - 1 && <Divider />}
+              </>
+            ))}
           </ul>
-        </Box>
-      </section>
-    </>
+        </Paper>
+      </Box>
+    </Box>
   );
 };
 

@@ -1,6 +1,6 @@
 import { Box, CircularProgress } from '@mui/material';
 import { ReactNode } from 'react';
-import ArchiveBreadcrumbs from '../archive-breadcrumbs';
+import ArchiveBreadcrumbs from './archive-breadcrumbs';
 import { useNavigation } from 'react-router-dom';
 
 type LayoutProps = {

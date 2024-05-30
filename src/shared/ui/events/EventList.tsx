@@ -17,9 +17,9 @@ const MockData = [
       },
     ],
     media: [
-      'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F86289.jpg&f=1&nofb=1&ipt=126b566bb61bc1999c3857807dab02f85fcf79fb3c5689ad9411c971cc93af11&ipo=images',
-      'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.designyourway.net%2Fblog%2Fwp-content%2Fuploads%2F2018%2F01%2Fcool-computer-backgrounds-8.jpg&f=1&nofb=1&ipt=ed55b85d17d0b138a50267c1ee502952c1f335ef08598c5cf124249646968059&ipo=images',
-      'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F10%2FCool-high-res-backgrounds.jpg&f=1&nofb=1&ipt=36fe7d7ab10b23bbc0108ab256fcffee81299c5ae72395583d4fa5e18e290682&ipo=images',
+      'https://jcpatriot.com/wp-content/uploads/2016/04/REAL-university-of-florida-pic.jpg',
+      'https://wallpapercave.com/wp/wp2468653.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/b/bd/Emmanuel_College_Front_Court%2C_Cambridge%2C_UK_-_Diliff.jpg',
     ],
   },
   {
@@ -36,24 +36,18 @@ const MockData = [
       },
     ],
     media: [
-      'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F86289.jpg&f=1&nofb=1&ipt=126b566bb61bc1999c3857807dab02f85fcf79fb3c5689ad9411c971cc93af11&ipo=images',
-      'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.designyourway.net%2Fblog%2Fwp-content%2Fuploads%2F2018%2F01%2Fcool-computer-backgrounds-8.jpg&f=1&nofb=1&ipt=ed55b85d17d0b138a50267c1ee502952c1f335ef08598c5cf124249646968059&ipo=images',
-      'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F10%2FCool-high-res-backgrounds.jpg&f=1&nofb=1&ipt=36fe7d7ab10b23bbc0108ab256fcffee81299c5ae72395583d4fa5e18e290682&ipo=images',
+      'https://jcpatriot.com/wp-content/uploads/2016/04/REAL-university-of-florida-pic.jpg',
+      'https://wallpapercave.com/wp/wp2468653.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/b/bd/Emmanuel_College_Front_Court%2C_Cambridge%2C_UK_-_Diliff.jpg',
     ],
   },
 ];
 
 const EventList = () => {
   return (
-    <>
-      <RouterLink
-        to={'/archive'}
-        style={{ position: 'absolute', right: 10, top: 10, textDecoration: 'none' }}
-      >
-        Архив
-      </RouterLink>
+    <Box>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-        {MockData.map((event: any) => {
+        {MockData.map((event) => {
           return (
             <Event
               name={event.blockName}
@@ -65,7 +59,7 @@ const EventList = () => {
           );
         })}
       </Box>
-    </>
+    </Box>
   );
 };
 

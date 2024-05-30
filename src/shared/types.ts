@@ -23,3 +23,12 @@ export interface IDeanery {
   logo: string;
   info: string;
 }
+
+export interface IEvent {
+  text: string;
+  events: {
+    year: string;
+    name: string;
+  }[];
+  medias: string[];
+}

@@ -1,4 +1,4 @@
-import { IDeanery, IDepartment, IFaculty, ITeacher } from '../types';
+import { IDeanery, IDepartment, IFaculty, ITeacher } from '~/shared/types';
 
 type ArchiveObject = {
   faculty: string;

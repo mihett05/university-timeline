@@ -1,6 +1,6 @@
 import { Breadcrumbs, Link } from '@mui/material';
 import { Link as RouterLink, useParams } from 'react-router-dom';
-import { translate, facultyUrl, departmentUrl, deaneryUrl, teacherUrl } from './links';
+import { translate, facultyUrl, departmentUrl, deaneryUrl, teacherUrl } from '~/shared/links';
 
 export default function ArchiveBreadcrumbs() {
   const { faculty, department, deanery, teacher } = useParams();
