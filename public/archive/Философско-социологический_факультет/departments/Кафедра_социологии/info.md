@@ -5,7 +5,7 @@
    
 
 **Елена Борисовна Плотникова**
-[О кафедре](http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/kafedry/kafedra-sotsiologii-i-politologii/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------------
 
 

@@ -10,7 +10,7 @@
  E-mail:
  
   
-[О кафедре](http://www.psu.ru/fakultety/khimicheskij-fakultet/kafedry/kafedra-prirodnykh-i-biologicheski-aktivnykh-soedinenij/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------------------
 
 

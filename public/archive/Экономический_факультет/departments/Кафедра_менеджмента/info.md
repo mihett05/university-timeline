@@ -8,7 +8,7 @@
   
 
  (342) 239-65-93
-[О кафедре](http://www.psu.ru/fakultety/ekonomicheskij-fakultet/kafedry/kafedra-menedzhmenta-marketinga-i-kommertsii/o-kafedre)
+О кафедре
 --------------------------------------------------------------------------------------------------------------
 
 

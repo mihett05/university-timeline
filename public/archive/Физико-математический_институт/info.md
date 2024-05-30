@@ -1,4 +1,4 @@
-[Об Институте](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/ob-institute)
+Об Институте
 -----------------------------------------------------------------------
 
 
@@ -146,7 +146,7 @@
    
 
  У нас действуют много стипендиальных программ. Подробнее о них можно прочитать
- [здесь](http://www.psu.ru/studentam/informatsiya-o-stipendiyakh) 
+ здесь 
  .
    
 
@@ -156,7 +156,7 @@
    
 
  Более подробную информацию о грантах можно найти
- [здесь](http://www.psu.ru/nauka/aktualnye-konkursy-i-granty) 
+ здесь 
  .
    
 

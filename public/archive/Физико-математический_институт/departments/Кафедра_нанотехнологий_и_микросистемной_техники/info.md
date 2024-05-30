@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-fiziki-tverdogo-tela/o-kafedre-fiziki-tverdogo-tela)
+О кафедре
 ---------------------------------------------------------------------------------------------------------------------------
 
 
@@ -32,17 +32,16 @@
  Учебный процесс строится таким образом, чтобы выпускники не только знали, но и умели проводить реальные технологические операции и владеть современными методами создания микросистем, иметь опыт их моделирования и проектирования, владеть методами сборки сложных технологических объектов. Производственная практика студентов предполагает знакомство с реальным технологическим процессом на предприятиях Пермского края, построение производственных, технологических и бизнес-цепочек.
  
 
-[подробнее >>](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-fiziki-tverdogo-tela/o-kafedre-fiziki-tverdogo-tela) 
+ 
 
 
 
 
 
-[История кафедры](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-fiziki-tverdogo-tela/istorija-kafedry-fisiki-tverdogo-tela)
+История кафедры
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-fiziki-tverdogo-tela/istorija-kafedry-fisiki-tverdogo-tela)

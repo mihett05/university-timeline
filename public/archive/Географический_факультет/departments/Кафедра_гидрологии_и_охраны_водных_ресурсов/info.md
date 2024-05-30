@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/geograficheskij-fakultet/kafedry/kafedra-gidrologii-i-okhrany-vodnykh-resursov/o-kafedre)
+О кафедре
 ----------------------------------------------------------------------------------------------------------------
 
 

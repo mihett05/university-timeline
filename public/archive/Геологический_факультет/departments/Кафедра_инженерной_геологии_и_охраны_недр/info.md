@@ -8,7 +8,7 @@
   
 
  (342) 2-396-127
-[О кафедре](http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------------
 
 
@@ -28,4 +28,3 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-inzhenernoj-geologii-i-okhrany-nedr/o-kafedre)

@@ -11,7 +11,7 @@
    
 
  (342) 239-62-58, 237-17-53
-[О кафедре](http://www.psu.ru/fakultety/ekonomicheskij-fakultet/kafedry/kafedra-informatsionnykh-sistem-i-matematicheskikh-metodov-v-ekonomike/o-kafedre)
+О кафедре
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 

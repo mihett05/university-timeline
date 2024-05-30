@@ -8,7 +8,7 @@
   
 
  (342) 239-63-04
-[О кафедре](http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/kafedry/kafedra-istorii-i-arkheologii/o-kafedre)
+О кафедре
 -----------------------------------------------------------------------------------------------------------
 
 

@@ -15,7 +15,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/khimicheskij-fakultet/kafedry/kafedra-organicheskoj-khimii/o-kafedre)
+О кафедре
 --------------------------------------------------------------------------------------------
 
 

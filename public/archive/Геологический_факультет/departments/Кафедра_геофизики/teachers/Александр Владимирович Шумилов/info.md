@@ -5,7 +5,7 @@
    
 
  профессор
- [кафедры геофизики](http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-geofiziki) 
+ кафедры геофизики 
   
 
 **Александр Владимирович Шумилов**

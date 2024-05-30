@@ -30,4 +30,3 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/geologicheskij-fakultet/o-fakultete-glg/o-fakultete)

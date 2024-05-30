@@ -15,7 +15,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-matematicheskogo-obespecheniya-vychislitelnykh-sistem/o-kafedre)
+О кафедре
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -71,4 +71,3 @@
    
 
 
-[подробнее >>](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-matematicheskogo-obespecheniya-vychislitelnykh-sistem/o-kafedre)

@@ -24,7 +24,7 @@
 
 
  (342) 2-396-488
-[О кафедре](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-teorii-i-istorii-gosudarstva-i-prava/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------------
 
 
@@ -98,11 +98,10 @@
 
 
 
-[История кафедры](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-teorii-i-istorii-gosudarstva-i-prava/istoriya-kafedry)
+История кафедры
 --------------------------------------------------------------------------------------------------------------------------
 
 
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/yuridicheskij-fakultet/kafedry/kafedra-teorii-i-istorii-gosudarstva-i-prava/istoriya-kafedry)

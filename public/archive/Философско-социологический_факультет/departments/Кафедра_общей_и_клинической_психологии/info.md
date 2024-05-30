@@ -5,7 +5,7 @@
    
 
 **Екатерина Сергеевна Игнатова**
-[О кафедре](http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/kafedry/kafedra-obshej-i-klinichskoj-psikhologii/o-kafedre)
+О кафедре
 ------------------------------------------------------------------------------------------------------------------------
 
 

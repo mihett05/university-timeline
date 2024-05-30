@@ -30,13 +30,13 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/yuridicheskij-fakultet/o-fakultete-jur/o-fakultete) 
+ 
 
 
 
 
 
-[История юридического факультета](http://www.psu.ru/fakultety/yuridicheskij-fakultet/o-fakultete-jur/istoriya-yuridicheskogo-fakulteta)
+История юридического факультета
 ----------------------------------------------------------------------------------------------------------------------
 
 
@@ -48,4 +48,3 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/yuridicheskij-fakultet/o-fakultete-jur/istoriya-yuridicheskogo-fakulteta)

@@ -6,10 +6,14 @@ from os import listdir
 from os.path import isfile, join
 from pathlib import Path
 
+from typing import Callable
+
 import requests
 
-from src.archive.parser.utils import make_dir_if_not_exists
+from public.archive.parser.utils import make_dir_if_not_exists, save_md, save_image, apply_function_to_files, \
+    remove_unnecessary_links
 
+make_dir_if_not_exists('logs')
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
@@ -19,20 +23,6 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-
-
-def save_image(file_path: str, src: str):
-    if os.path.exists(file_path):
-        return
-    with open(file_path, 'wb') as img:
-        img.write(requests.get(src).content)
-
-
-def save_md(file_path: str, src: str):
-    if os.path.exists(file_path):
-        return
-    with open(file_path, 'w', encoding='utf8') as md:
-        md.write(src)
 
 
 def save_collection(base_path: str, collection: list[dict], default_img_extension=None):
@@ -85,7 +75,7 @@ def create_files_and_dirs(path_to_write, faculty: dict):
                             info.md
                             info.jpg
     """
-    pattern = r'[а-яА-Я\s]*'
+    pattern = r'[\«а-яА-Я\s]*'
 
     faculty_name = join(path_to_write, faculty['text'].replace(' ', '_'))
     faculty_deanery_name = join(faculty_name, 'deanery')
@@ -141,7 +131,10 @@ def main(path_to_write: Path, path_to_read='output'):
         create_files_and_dirs(path_to_write, faculty)
         logging.info(f'End parsing faculty "{file}"')
 
+    apply_function_to_files(remove_unnecessary_links, work_path=path_to_write)
+
 
 if __name__ == '__main__':
     path = Path(__file__).parent.parent
     main(path)
+    # apply_function_to_files(remove_unnecessary_links)

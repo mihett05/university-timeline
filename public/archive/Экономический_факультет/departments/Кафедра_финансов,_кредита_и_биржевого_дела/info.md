@@ -15,7 +15,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/ekonomicheskij-fakultet/kafedry/kafedra-finansov-kredita-i-birzhevogo-dela/o-kafedre)
+О кафедре
 ------------------------------------------------------------------------------------------------------------
 
 

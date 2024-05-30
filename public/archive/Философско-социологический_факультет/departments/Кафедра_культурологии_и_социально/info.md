@@ -9,14 +9,14 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/kafedry/kafedra-kulturologii-i-sotsialno-gumanitarnykh-tekhnologij/o-kafedre)
+О кафедре
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
 
  Кафедра культурологии и социально-гуманитарных технологий образована на базе
- [кафедры истории философии](http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/kafedry/kafedra-istorii-filosofii) 
+ кафедры истории философии 
  в 2018 г. (Решение Ученого совета ПГНИУ от 28 марта 2018 г.).
    
 

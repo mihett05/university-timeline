@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/filologicheskij-fakultet/kafedry/kafedra-russkogo-yazyka-i-stilistiki/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------
 
 
@@ -39,11 +39,10 @@
 
 
 
-[История кафедры](http://www.psu.ru/fakultety/filologicheskij-fakultet/kafedry/kafedra-russkogo-yazyka-i-stilistiki/istoriya-kafedry)
+История кафедры
 --------------------------------------------------------------------------------------------------------------------
 
 
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/filologicheskij-fakultet/kafedry/kafedra-russkogo-yazyka-i-stilistiki/istoriya-kafedry)

@@ -14,7 +14,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-mirovoj-literatury-i-kultury/o-kafedre)
+О кафедре
 -------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -67,7 +67,7 @@
 
 
 
-[История кафедры](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-mirovoj-literatury-i-kultury/istoriya)
+История кафедры
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -79,4 +79,3 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-mirovoj-literatury-i-kultury/istoriya)

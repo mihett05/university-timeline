@@ -5,7 +5,7 @@
    
 
 **Виктор Николаевич Раевский**
-[О кафедре](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-informatsionnykh-tekhnologij/o-kafedre)
+О кафедре
 --------------------------------------------------------------------------------------------------------------
 
 

@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-fiziki-fazovykh-perekhodov/o-kafedre-fiziki-fazovyh-perehodov)
+О кафедре
 -------------------------------------------------------------------------------------------------------------------------------------
 
 

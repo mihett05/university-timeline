@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/kafedry/kafedra-lingvodidaktiki/o-kafedre)
+О кафедре
 ------------------------------------------------------------------------------------------------------------------------
 
 

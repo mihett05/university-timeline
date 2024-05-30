@@ -12,7 +12,7 @@
 
 
   
-[История кафедры](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-fiziologii-rastenij-i-mikroorganizmov/istoriya-kafedry)
+История кафедры
 ----------------------------------------------------------------------------------------------------------------------------
 
 
@@ -24,4 +24,3 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/biologicheskij-fakultet/kafedry/kafedra-fiziologii-rastenij-i-mikroorganizmov/istoriya-kafedry)

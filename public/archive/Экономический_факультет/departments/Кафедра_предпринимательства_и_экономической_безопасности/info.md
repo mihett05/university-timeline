@@ -6,7 +6,7 @@
 
 [**Марина Николаевна** 
 **Руденко**](http://www.psu.ru/personalnye-stranitsy-prepodavatelej/r/marina-nikolaevna-rudenko)
-[О кафедре](http://www.psu.ru/fakultety/ekonomicheskij-fakultet/kafedry/kafedra-natsionalnoj-ekonomiki-i-ekonomicheskoj-bezopasnosti/o-kafedre)
+О кафедре
 ------------------------------------------------------------------------------------------------------------------------------
 
 

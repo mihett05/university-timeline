@@ -5,7 +5,7 @@
    
 
 **Наталья Александровна Медведева**
-[О кафедре](http://www.psu.ru/fakultety/khimicheskij-fakultet/kafedry/kafedra-fizicheskoj-khimii/o-kafedre)
+О кафедре
 ------------------------------------------------------------------------------------------
 
 
@@ -17,4 +17,3 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/khimicheskij-fakultet/kafedry/kafedra-fizicheskoj-khimii/o-kafedre)

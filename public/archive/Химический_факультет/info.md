@@ -30,4 +30,3 @@
 
 
 
-[подробнее >>](http://www.psu.ru/fakultety/khimicheskij-fakultet/o-fakultete-him/o-fakultete)

@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/fiziko-matematicheskij-institut/kafedry/kafedra-radioelektroniki-i-zashchity-informatsii/o-kafedre)
+О кафедре
 --------------------------------------------------------------------------------------------------------------------------
 
 

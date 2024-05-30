@@ -12,7 +12,7 @@
 
 
   
-[О кафедре](http://www.psu.ru/fakultety/filologicheskij-fakultet/kafedry/kafedra-russkoj-literatury/o-kafedre)
+О кафедре
 ---------------------------------------------------------------------------------------------
 
 
@@ -34,7 +34,7 @@
 
 
 
-[История кафедры](http://www.psu.ru/fakultety/filologicheskij-fakultet/kafedry/kafedra-russkoj-literatury/istoriya-kafedry)
+История кафедры
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -44,4 +44,3 @@
    
 
 
-[подробнее >>](http://www.psu.ru/fakultety/filologicheskij-fakultet/kafedry/kafedra-russkoj-literatury/istoriya-kafedry)

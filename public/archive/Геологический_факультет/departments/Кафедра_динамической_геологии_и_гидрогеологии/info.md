@@ -5,7 +5,7 @@
    
 
 **Денис Рафаилович Золотарев**
-[О кафедре](http://www.psu.ru/fakultety/geologicheskij-fakultet/kafedry/kafedra-dinamicheskoj-geologii-i-gidrogeologii/o-kafedre)
+О кафедре
 ----------------------------------------------------------------------------------------------------------------
 
 
