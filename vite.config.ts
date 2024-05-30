@@ -11,19 +11,9 @@ export default defineConfig({
       '~': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-  assetsInclude: [
-    '**/*.png',
-    '**/*.jpg',
-    '**/*.JPG',
-    '**/*.jpeg',
-    '**/*.svg',
-    '**/*.md',
-    '**/*.mp4',
-    '**/*.json',
-  ],
   build: {
     rollupOptions: {
-      external: /\\*\.(py|json|png|jpg|JPG|jpeg|md|mp4)/,
+      external: /public\/*/,
     },
   },
 });
