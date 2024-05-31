@@ -1,5 +1,6 @@
 import os
 import re
+import shutil
 from os.path import join, isfile
 from pathlib import Path
 from typing import Callable
@@ -59,6 +60,14 @@ def remove_unnecessary_links(
             file.write(data)
 
 
+def remove_duplicates(
+    file_path: str
+):
+    if ' ' in file_path:
+        print(file_path)
+        shutil.rmtree(file_path)
+
+
 def apply_function_to_files(
     func: Callable,
     extension: str = '.md',
@@ -73,3 +82,20 @@ def apply_function_to_files(
                 func(obj_path, **kwargs)
         else:
             apply_function_to_files(func, work_path=obj_path)
+
+
+def apply_function_to_dirs(
+    func: Callable,
+    work_path: Path | str = Path(__file__).parent.parent,
+    **kwargs
+):
+    for obj in os.listdir(str(work_path)):
+        obj_path = join(work_path, obj)
+
+        if isfile(obj_path):
+            continue
+
+        # apply to childes
+        apply_function_to_dirs(func, work_path=obj_path)
+        # apply to itself
+        func(obj_path)
