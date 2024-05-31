@@ -1,18 +1,18 @@
-import { Box, Typography, useMediaQuery } from '@mui/material';
+import {Box, Typography, useMediaQuery} from '@mui/material';
 import Markdown from 'react-markdown';
 
 import DepartmentList from '../department/DepartmentList';
 import TeacherList from '../teacher/TeacherList';
 import Layout from '~/shared/ui/layout';
-import { IFaculty } from '~/shared/types';
-import { translate } from '~/shared/links';
+import {IFaculty} from '~/shared/types';
+import {translate} from '~/shared/links';
 import LazyImage from '../lazy-image';
 
 type FacultyProps = {
   faculty: IFaculty;
 };
 
-const Faculty = ({ faculty }: FacultyProps) => {
+const Faculty = ({faculty}: FacultyProps) => {
   const isDesktop = useMediaQuery('(min-width:769px)');
   return (
     <Layout>
@@ -21,7 +21,7 @@ const Faculty = ({ faculty }: FacultyProps) => {
           {translate(faculty.name)}
         </Typography>
         <Box>
-          <LazyImage src={faculty.logo} alt="Фотография факультета" />
+          <LazyImage src={faculty.logo} alt="Фотография факультета"/>
           <Markdown>{faculty.info}</Markdown>
         </Box>
       </Box>
@@ -31,14 +31,17 @@ const Faculty = ({ faculty }: FacultyProps) => {
           flexDirection: isDesktop ? 'row' : 'column',
         }}
       >
-        <Box>
-          <Typography textAlign="center">Кафедры факультета:</Typography>
-          <DepartmentList departments={faculty.departments} />
-        </Box>
+        {faculty.departments.length > 0 && (
+          <Box>
+            <Typography textAlign="center">Кафедры факультета:</Typography>
+            <DepartmentList departments={faculty.departments}/>
+          </Box>
+        )}
+
         {faculty.deanery.length > 0 && (
           <Box>
             <Typography textAlign="center">Деканат:</Typography>
-            <TeacherList teachers={faculty.deanery} />
+            <TeacherList teachers={faculty.deanery}/>
           </Box>
         )}
       </Box>
